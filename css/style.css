@@ -86,6 +86,33 @@
 }
 
 
+.color.blue2 {
+	background: #45B2BE;
+	color: #fff;
+}
+
+.color.blue2 i {
+	color: #5bc2ce;
+}
+
+.color.blue2 h2 span{
+	background: #45B2BE;
+}
+
+.color.blue2.transparent {
+	background: rgba(91,194,206,.8);
+	color: #fff;
+}
+
+.color.blue2.transparent i {
+	color: #45B2BE;
+}
+
+.color.blue2.transparent h2 span{
+	background: rgba(91,194,206,0);
+}
+
+
 
 .color.black {
 	background: #414141;
@@ -2605,7 +2632,7 @@ position: absolute;
 top: 0;
 left: 0;
 width: 100%;
-height: 100%;
+height:100%;
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers)
