@@ -22,6 +22,10 @@
 	<!-- end: Facebook Open Graph -->
 
     <!-- start: CSS -->
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="lib/css/ap-scroll-top.css" type="text/css" media="all" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
@@ -852,7 +856,7 @@
 <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
 <script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
 <script type="text/javascript" src="js/jquery.slitslider.js"></script>
-
+<script src="lib/js/ap-scroll-top.js"></script>
 <script type="text/javascript" src="js/excanvas.js"></script>
 <script type="text/javascript" src="js/jquery.flot.min.js"></script>
 <script type="text/javascript" src="js/jquery.flot.pie.min.js"></script>
@@ -927,6 +931,121 @@
 		Page.init();
 	
 	});
+</script>
+
+
+		<script type="text/javascript">
+            // Setup plugin with default settings
+            $(document).ready(function() {
+
+                $.apScrollTop({
+                    'onInit': function(evt) {
+                        console.log('apScrollTop: init');
+                    }
+                });
+
+                // Add event listeners
+                $.apScrollTop().on('apstInit', function(evt) {
+                    console.log('apScrollTop: init');
+                });
+
+                $.apScrollTop().on('apstToggle', function(evt, details) {
+                    console.log('apScrollTop: toggle / is visible: ' + details.visible);
+                });
+
+                $.apScrollTop().on('apstCssClassesUpdated', function(evt) {
+                    console.log('apScrollTop: cssClassesUpdated');
+                });
+
+                $.apScrollTop().on('apstPositionUpdated', function(evt) {
+                    console.log('apScrollTop: positionUpdated');
+                });
+
+                $.apScrollTop().on('apstEnabled', function(evt) {
+                    console.log('apScrollTop: enabled');
+                });
+
+                $.apScrollTop().on('apstDisabled', function(evt) {
+                    console.log('apScrollTop: disabled');
+                });
+
+                $.apScrollTop().on('apstBeforeScrollTo', function(evt, details) {
+                    console.log('apScrollTop: beforeScrollTo / position: ' + details.position + ', speed: ' + details.speed);
+
+                    // You can return a single number here, which means that to this position
+                    // browser window scolls to
+                    /*
+                    return 100;
+                    */
+
+                    // .. or you can return an object, containing position and speed:
+                    /*
+                    return {
+                        position: 100,
+                        speed: 100
+                    };
+                    */
+
+                    // .. or do not return anything, so the default values are used to scroll
+                });
+
+                $.apScrollTop().on('apstScrolledTo', function(evt, details) {
+                    console.log('apScrollTop: scrolledTo / position: ' + details.position);
+                });
+
+                $.apScrollTop().on('apstDestroy', function(evt, details) {
+                    console.log('apScrollTop: destroy');
+                });
+
+            });
+
+
+            // Add change events for options
+            $('#option-enabled').on('change', function() {
+                var enabled = $(this).is(':checked');
+                $.apScrollTop('option', 'enabled', enabled);
+            });
+
+            $('#option-visibility-trigger').on('change', function() {
+                var value = $(this).val();
+                if (value == 'custom-function') {
+                    $.apScrollTop('option', 'visibilityTrigger', function(currentYPos) {
+                        var imagePosition = $('#image-for-custom-function').offset();
+                        return (currentYPos > imagePosition.top);
+                    });
+                }
+                else {
+                    $.apScrollTop('option', 'visibilityTrigger', parseInt(value));
+                }
+            });
+
+            $('#option-visibility-fade-speed').on('change', function() {
+                var value = parseInt($(this).val());
+                $.apScrollTop('option', 'visibilityFadeSpeed', value);
+            });
+
+            $('#option-scroll-speed').on('change', function() {
+                var value = parseInt($(this).val());
+                $.apScrollTop('option', 'scrollSpeed', value);
+            });
+
+            $('#option-position').on('change', function() {
+                var value = $(this).val();
+                $.apScrollTop('option', 'position', value);
+            });
+		</script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
 </script>
 <!-- end: Java Script -->
 
