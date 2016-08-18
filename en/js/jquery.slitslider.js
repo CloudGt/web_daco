@@ -78,11 +78,11 @@
 		// maximum possible scale
 		maxScale : 2,
 		// slideshow on / off
-		autoplay : false,
+		autoplay : true,
 		// keyboard navigation
 		keyboard : true,
 		// time between transitions
-		interval : 4000,
+		interval : 5000,
 		// callbacks
 		onBeforeChange : function( slide, idx ) { return false; },
 		onAfterChange : function( slide, idx ) { return false; }
@@ -439,14 +439,18 @@
 						
 						case arrow.left :
 
-							self._stopSlideshow();
+							//self._stopSlideshow();
+		
 							self._navigate( 'prev' );
+							//self._startSlideshow();
 							break;
 						
 						case arrow.right :
 							
-							self._stopSlideshow();
+							//self._stopSlideshow();
+
 							self._navigate( 'next' );
+							//self._startSlideshow();
 							break;
 
 					}
@@ -463,6 +467,7 @@
 			this.slideshow = setTimeout( function() {
 
 				self._navigate( 'next' );
+				//self._navigate( 'prev' );
 
 				if ( self.options.autoplay ) {
 
@@ -473,6 +478,7 @@
 			}, this.options.interval );
 
 		},
+
 		_stopSlideshow: function() {
 
 			if ( this.options.autoplay ) {
@@ -544,15 +550,18 @@
 		// public method: shows next slide
 		next : function() {
 
-			this._stopSlideshow();
+			//this._stopSlideshow();
+			
 			this._navigate( 'next' );
+			//this._startSlideshow();
 
 		},
 		// public method: shows previous slide
 		previous : function() {
 
-			this._stopSlideshow();
+			//this._stopSlideshow();
 			this._navigate( 'prev' );
+			//this._startSlideshow();
 
 		},
 		// public method: goes to a specific slide
@@ -566,7 +575,7 @@
 
 			}
 
-			this._stopSlideshow();
+			//this._stopSlideshow();
 			this._navigate( pos > this.current ? 'next' : 'prev', pos );
 
 		},
