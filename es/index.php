@@ -1,3 +1,9 @@
+<?php 
+	//session_start(); 
+	setcookie('ultima_sesion', 'es',false, '/', false);
+
+ ?>
+<!DOCTYPE html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
