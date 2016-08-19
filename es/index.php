@@ -1,6 +1,6 @@
 <?php 
 	//session_start(); 
-	setcookie('ultima_sesion', 'es',false, '/', false);
+	setcookie('ultima_sesion', 'es',false, '/', 'dacotrans.hol.es');
 
  ?>
 <!DOCTYPE html>
