@@ -3,7 +3,7 @@
 	setcookie('ultima_sesion', 'es',false, '/', 'dacotrans.hol.es');
 
  ?>
-<!DOCTYPE html>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -115,10 +115,12 @@
 				<div class="sl-slider">
 					<div class="sl-slide bg-5" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
 						<div class="sl-slide-inner">
-							<div class="deco" ><img src="img/LOGO_NEGRO_DACO.png"></div>
+							<div class='bg-img bg-img-1'>
+								<div class="deco" ><img src="img/LOGO_NEGRO_DACO.png"></div>
 							
-							<h2>DACOTRANS DE CENTROAMERICA (GUATEMALA)</h2>
-							<blockquote><p>Con más de 40 años de experiencia en log&iacute;stica, somos su mejor aliado a nivel mundial para el manejo de su mercaderia.</p></blockquote>
+								<h2>DACOTRANS DE CENTROAMERICA (GUATEMALA)</h2>
+								<blockquote><p>Con más de 40 años de experiencia en log&iacute;stica, somos su mejor aliado a nivel mundial para el manejo de su mercaderia.</p></blockquote>
+							</div>
 						</div>
 					</div>
 
@@ -188,6 +190,20 @@
 							<blockquote><p>Contamos con equipos especialisados para el transporte de su carga Extradimensionada y con el personal certificado y calificado para su requerimiento.</p></blockquote>
 						</div>
 					</div>
+
+					<!--test-->
+
+					<div class="sl-slide bg-5" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
+						<div id="fondo7">
+							<div class="sl-slide-inner">
+								<div class="deco" data-icon="D"></div>
+								<h2>David Tocay</h2>
+								<blockquote><p>Contamos con equipos especialisados para el transporte de su carga Extradimensionada y con el personal certificado y calificado para su requerimiento.</p></blockquote>
+							</div>
+						</div>
+					</div>
+
+					<!--test-->
 				</div><!-- /sl-slider -->
 
 				<nav id="nav-arrows" class="nav-arrows">
@@ -197,6 +213,7 @@
 
 				<nav id="nav-dots" class="nav-dots">
 					<span class="nav-dot-current"></span>
+					<span></span>
 					<span></span>
 					<span></span>
 					<span></span>
