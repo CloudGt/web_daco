@@ -81,6 +81,12 @@
 									<li><a href="#" class="team">Nuestro Equipo</a></li>
 									<li><a href="#" class="contact">Cont&aacute;ctenos</a></li>
 									<li><a href="#" class="cotizacion">Cotizaci&oacute;n</a></li>
+									      <li id="menu" ><a href="#">Idioma&nbsp;</a>
+											<ul class="sub-menu">
+												<!--<li id="menu-item-1510" class="qtranxs-lang-menu-item qtranxs-lang-menu-item-es menu-item menu-item-type-custom menu-item-object-custom menu-item-1510"><a title="Español" href="dacotrans.hol.es"><img src="http://neptunlog.com/wp-content/plugins/qtranslate-x/flags/es.png" alt="Español">&nbsp;Español</a></li>
+												<li id="menu-item-1511" class="qtranxs-lang-menu-item qtranxs-lang-menu-item-en menu-item menu-item-type-custom menu-item-object-custom menu-item-1511"><a title="English" href="dacotrans.hol.es"><img src="http://neptunlog.com/wp-content/plugins/qtranslate-x/flags/us.png" alt="English">&nbsp;English</a></li>-->
+											</ul>
+										</li>
 			            		</ul>
 			          		</div>
 			          		
@@ -275,7 +281,7 @@
       		<!-- start: Row -->
       		<div class="row-fluid">
 	
-        		<div class="span4">
+        		<div class="span2">
           			<div class="icons-box">
 						<img src="img/servicios/barco2.jpg" class="img-circle" alt="cinque terre" width="180" height="140">
 						<h3>Marítimo</h3>
@@ -287,7 +293,7 @@
 					</div>
         		</div>
 
-        		<div class="span4">
+        		<div class="span2">
           			<div class="icons-box">
 						<img src="img/servicios/avion2.jpg" class="img-circle" class="cicletag"  width="180" height="140">
 						<h3>Aéreo</h3>
@@ -298,7 +304,7 @@
 					</div>
         		</div>
 
-        		<div class="span4">
+        		<div class="span2">
           			<div class="icons-box">
 						<img src="img/servicios/tren2.jpg" class="img-circle" alt="cinque terre" width="180" height="140">
 						<h3>Terrestre</h3>
@@ -310,7 +316,7 @@
         		</div>
         		<div class="row-fluid">
 	
-        		<div class="span4">
+        		<div class="span2">
           			<div class="icons-box">
 						<img src="img/servicios/camion2.jpg" class="img-circle" alt="cinque terre" width="180" height="140">
 						<h3>Servicio de Transporte Local</h3>
@@ -322,7 +328,7 @@
 					</div>
         		</div>
 
-        		<div class="span4">
+        		<div class="span2">
           			<div class="icons-box">
 						<img src="img/servicios/grua2.jpg" class="img-circle" class="cicletag"  width="180" height="140">
 						<h3>Grúas Telescopicas</h3>
@@ -333,7 +339,7 @@
 					</div>
         		</div>
 
-        		<div class="span4">
+        		<div class="span2">
           			<div class="icons-box">
 						<img src="img/servicios/modular2.jpg" class="img-circle" alt="cinque terre" width="180" height="140">
 						<h3>Equipo para carga Extradimensionada</h3>
@@ -391,24 +397,24 @@
 					<div id="story">
 						<h3>Nuestra Historia</h3>
 						<p>
-							Empresa de logistica fundada en el ario 1,969 como parte del grupo de embarcadores, somos agentes autorizados por IATA- FIATA.
+							Empresa de logistica fundada en el año 1,969 como parte del grupo de embarcadores, somos agentes autorizados por IATA- FIATA.
 						</p>
 						<p>
-							Actualmente nuestra organizaci6n esta conformada por mas de 100 empleados a quienes capacitamos constantemente para ofrecer soluciones y servicios integrados. 
+							Actualmente nuestra organización esta conformada por mas de 100 empleados a quienes capacitamos constantemente para ofrecer soluciones y servicios integrados. 
 						</p>
 						<p>
-							Nuestras oficinas centrales se encuentran ubicadas estrateqicarnente en Almacenadora lntegrada "Coalsa" en donde se descargan cargas consolidada teniendo acceso a la supervision de cada tramite, de igual manera estamos ubicados en el interior de la terminal aerea de carga en el aeropuerto internacional de la ciudad de Guatemala "La Aurora". 
+							Nuestras oficinas centrales se encuentran ubicadas estrategicamente en Almacenadora lntegrada "Coalsa" en donde se descargan cargas consolidada teniendo acceso a la supervision de cada tramite, de igual manera estamos ubicados en el interior de la terminal aerea de carga en el aeropuerto internacional de la ciudad de Guatemala "La Aurora". 
 						</p>
 						<p>
 							El Grupo de Dacotrans Guatemala esta conformado por tres empresas:
 						</p>
 
 						<p>
-							•Dacotrans de Guatemala: Embarcadora a nivel mundial de carga consolidada, equipos completes, carga aerea, carga suelta (Break Bulk), proyectos para todo tipo de carga, camiones propios para entregas a domicilio y departamento interno de aduana.
+							•Dacotrans de Guatemala: Embarcadora a nivel mundial de carga consolidada, equipos completos, carga áerea, carga suelta (Break Bulk), proyectos para todo tipo de carga, camiones propios para entregas a domicilio y departamento interno de aduana.
 						</p>
 
 						<p>
-							• Daco Heavy Lift S.A: Empresa especializada en transporte de carga extra dimensionada y sobre pesada hasta de 400,000Kgs con transporte y traileres propios para realizar dichas entregas las cuales tarnbien realizamos sobre fundamentos, como Daco Heavy Lift tenemos presencia en toda Centroamerica, Islas del Cari be y pa rte del Norte de America del Sur. 
+							• Daco Heavy Lift S.A: Empresa especializada en transporte de carga extra dimensionada y sobre pesada hasta de 400,000Kgs con transporte y traileres propios para realizar dichas entregas las cuales tambien realizamos sobre fundamentos, como Daco Heavy Lift tenemos presencia en toda Centroamerica, Islas del Cari be y pa rte del Norte de America del Sur. 
 						</p>
 
 						<p>
@@ -495,21 +501,27 @@
 			<div class="row-fluid">
 			
 				<!-- start: About Member -->
-				<div class="span3">
+				<div class="span1"></div>
+				<div class="span2">
 					<div class="avatar">
 						<img class="img-circle" src="img/vendedor.png" alt="team member">
 					</div>	
 					<div class="team-name">Estuardo Florian</div>
 					<div class="position">Vendedor</div>
 					<p>
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+					    <div class="icon-envelope"></div>
+						<a href="mailto:estuardo.florian@dacotrans.com.gt">estuardo.florian@ dacotrans.com.gt</a><br>
+						<div class="icon-th"></div>
+						<a> 502 0000.0000</a><br>
+						<div class="icon-th"></div>
+						<a> 502 2381-1200 Ext.1270</a>
 					</p>
 					<div class="social_profiles">
 						<ul class="social-bookmarks">
 							<li class="facebook"><a href="">facebook</a></li>
-							<li class="flickr"><a href="">flickr</a></li>
+							<!--<li class="flickr"><a href="">flickr</a></li>-->
 							<li class="linkedin"><a href="#">linkedin</a></li>
-							<li class="twitter"><a href="#">twitter</a></li>
+							<!--<li class="twitter"><a href="#">twitter</a></li>-->
 						</ul>
 					</div>	
 				</div>
@@ -518,21 +530,27 @@
 				<hr class="clean visible-phone">
 
 				<!-- start: About Member -->
-				<div class="span3">
+				<div class="span2">
 					<div class="avatar">
 						<img class="img-circle" src="img/vededora.png" alt="team member">
 					</div>	
 					<div class="team-name">Ilona Czapeck</div>
 					<div class="position">Vendedora</div>
 					<p>
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+						<div class="icon-envelope"></div>
+
+						<a href="mailto:ilona.czapek@dacotrans.com.gt" >ilona.czapek@ dacotrans.com.gt</a><br>
+						<div class="icon-th"></div>
+						<a> 502 0000.0000</a><br>
+						<div class="icon-th"></div>
+						<a> 502 2381-1200 Ext.1203</a> 
 					</p>
 					<div class="social_profiles">
 						<ul class="social-bookmarks">
-							<li class="facebook"><a href="https://www.facebook.com/mathias.rehe?fref=ts">facebook</a></li>
-							<li class="flickr"><a href="">flickr</a></li>
+							<li class="facebook"><a href="">facebook</a></li>
+							<!--<li class="flickr"><a href="">flickr</a></li>-->
 							<li class="linkedin"><a href="#">linkedin</a></li>
-							<li class="twitter"><a href="#">twitter</a></li>
+							<!--<li class="twitter"><a href="#">twitter</a></li>-->
 						</ul>
 					</div>	
 				</div>
@@ -541,21 +559,26 @@
 				<hr class="clean visible-phone">
 				
 				<!-- start: About Member -->
-				<div class="span3">
+				<div class="span2">
 					<div class="avatar">
 						<img class="img-circle" src="img/vededora2.png" alt="team member">
 					</div>	
 					<div class="team-name">Sharon Zea</div>
 					<div class="position">Vendedora</div>
 					<p>
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+						<div class="icon-envelope"></div>
+						<a href="mailto:sharon.zea@dacotrans.com.gt">sharon.zea@ dacotrans.com.gt</a><br>
+						<div class="icon-th"></div>
+						<a> 502 0000.0000</a><br>
+						<div class="icon-th"></div>
+						<a> 502 2381-1200 Ext.1204</a> 
 					</p>
 					<div class="social_profiles">
 						<ul class="social-bookmarks">
 							<li class="facebook"><a href="">facebook</a></li>
-							<li class="flickr"><a href="">flickr</a></li>
+							<!--<li class="flickr"><a href="">flickr</a></li>-->
 							<li class="linkedin"><a href="#">linkedin</a></li>
-							<li class="twitter"><a href="#">twitter</a></li>
+							<!--<li class="twitter"><a href="#">twitter</a></li>-->
 						</ul>
 					</div>	
 				</div>
@@ -564,27 +587,60 @@
 				<hr class="clean visible-phone">
 
 				<!-- start: About Member -->
-				<div class="span3">
+				<div class="span2">
 					<div class="avatar">
 						<img class="img-circle" src="img/vededora.png" alt="team member">
 					</div>	
 					<div class="team-name">Susan Hernandez</div>
 					<div class="position">Vendedora</div>
 					<p>
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+						<div class="icon-envelope"></div>
+						<a href="mailto:susan.hernandez@dacotrans.com.gt">susan.hernandez@ dacotrans.com.gt</a><br>
+						<div class="icon-th"></div>
+						<a> 502 0000.0000</a><br>
+						<div class="icon-th"></div>
+						<a> 502 2381-1200 Ext.1252</a> 
 					</p>
 					<div class="social_profiles">
 						<ul class="social-bookmarks">
 							<li class="facebook"><a href="">facebook</a></li>
-							<li class="flickr"><a href="">flickr</a></li>
+							<!--<li class="flickr"><a href="">flickr</a></li>-->
 							<li class="linkedin"><a href="#">linkedin</a></li>
-							<li class="twitter"><a href="#">twitter</a></li>
+							<!--<li class="twitter"><a href="#">twitter</a></li>-->
 						</ul>
 					</div>	
 				</div>
 				<!-- end: About Member -->
 				
 				<hr class="clean visible-phone">	
+				<!-- start: About Member -->
+				<div class="span2">
+					<div class="avatar">
+						<img class="img-circle" src="img/vededora.png" alt="team member">
+					</div>	
+					<div class="team-name">Gabriela Maltez</div>
+					<div class="position">Vendedora</div>
+					<p>
+						<div class="icon-envelope"></div>
+						<a href="mailto:gabriela.maltez@dacotrans.com.gt">gabriela.maltez@ dacotrans.com.gt</a><br>
+						<div class="icon-th"></div>
+						<a> 502 0000.0000</a><br>
+						<div class="icon-th"></div>
+						<a> 502 2381-1200 Ext.1249</a>. 
+					</p>
+					<div class="social_profiles">
+						<ul class="social-bookmarks">
+							<li class="facebook"><a href="">facebook</a></li>
+							<!--<li class="flickr"><a href="">flickr</a></li>-->
+							<li class="linkedin"><a href="#">linkedin</a></li>
+							<!--<li class="twitter"><a href="#">twitter</a></li>-->
+						</ul>
+					</div>	
+				</div>
+				<!-- end: About Member -->
+				
+				<hr class="clean visible-phone">
+				<div class="span1"></div>
 			
 			</div>
 			<!-- end: Row -->
