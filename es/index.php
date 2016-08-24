@@ -287,15 +287,34 @@
 				
       		<!-- start: Row -->
       		<div class="row-fluid">
+      		
+      		<div class="span1"></div>
+      		<style>
+
+				/* Definimos el color inicial */
+
+				.cambioColor {color:#f5f7f8;}
+
+				/* Definimos el color al pasar el mouse por encima */
+
+				.cambioColor:hover {color:#3f9dd6;}
+
+			</style>
+      		
 	
         		<div class="span2">
           			<div class="icons-box">
 						<img src="img/servicios/barco2.jpg" class="img-circle" alt="cinque terre" width="180" height="140">
-						<h3>Marítimo</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-						</p>
-						<div class="clearfi"></div>
+							<div class="cambioColor">
+								<h3> Marítimo</h3>
+														
+						    	<div align="justify">
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+								</div>
+							</div>		
+							
+							
+						<div class="clearfix"></div>
 						
 					</div>
         		</div>
@@ -303,39 +322,49 @@
         		<div class="span2">
           			<div class="icons-box">
 						<img src="img/servicios/avion2.jpg" class="img-circle" class="cicletag"  width="180" height="140">
-						<h3>Aéreo</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-						</p>
+						<div class="cambioColor">
+								<h3> Aéreo</h3>
+														
+						    	<div align="justify">
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+								</div>
+							</div>		
 						<div class="clearfix"></div>
 					</div>
         		</div>
 
-        		<div class="span2">
-          			<div class="icons-box">
-						<img src="img/servicios/tren2.jpg" class="img-circle" alt="cinque terre" width="180" height="140">
-						<h3>Terrestre</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-						</p>
-						<div class="clearfix"></div>
-					</div>
-        		</div>
-        		<div class="row-fluid">
-	
         		<div class="span2">
           			<div class="icons-box">
 						<img src="img/servicios/camion2.jpg" class="img-circle" alt="cinque terre" width="180" height="140">
-						<h3>Servicio de Transporte Local</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-						</p>
-						<div class="clearfi"></div>
+						<div class="cambioColor">
+								<h3> Terrestre</h3>
+														
+						    	<div align="justify">
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+								</div>
+							</div>		
+						<div class="clearfix"></div>
+					</div>
+        		</div>
+        		<!--<div class="row-fluid">-->
+	
+        		<div class="span2">
+          			<div class="icons-box">
+						<img src="img/servicios/camion3.jpg" class="img-circle" alt="cinque terre" width="180" height="140">
+						<div class="cambioColor">
+								<h3> Transporte Local</h3>
+														
+						    	<div align="justify">
+									Contamos con equipos propios para realizar el traslado de la mercaderia hasta la puerta de la bodega del cliente.
+								</div>
+							</div>		
+						<div class="clearfix"></div>
 						
 					</div>
         		</div>
+        		<!--<div class="row-fluid">-->
 
-        		<div class="span2">
+        		<!--<div class="span2">
           			<div class="icons-box">
 						<img src="img/servicios/grua2.jpg" class="img-circle" class="cicletag"  width="180" height="140">
 						<h3>Grúas Telescopicas</h3>
@@ -344,21 +373,27 @@
 						</p>
 						<div class="clearfix"></div>
 					</div>
-        		</div>
+        		</div>-->
 
         		<div class="span2">
           			<div class="icons-box">
 						<img src="img/servicios/modular2.jpg" class="img-circle" alt="cinque terre" width="180" height="140">
-						<h3>Equipo para carga Extradimensionada</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-						</p>
+						<div class="cambioColor">
+							<h3>Carga Sobre Dimensionada</h3>
+						
+						    <div align="justify">
+						 		Dacotrans con el apoyo de Daco Heavy Lift no hay carga demasiado grande que no se pueda manejar, haga click al link para más información
+						 		<a href="http://www.dacoheavylift.com/" target="_blank">dacoheavylift.com</a>
+						 	</div>
+						</div>
 						<div class="clearfix"></div>
 					</div>
         		</div>
+        		
 
       		
 			<!-- end: Row -->
+			<div class="span1"></div>
 			
 			<div class="clearfix"></div>
 			<hr class="clean">					
