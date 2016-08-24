@@ -265,13 +265,13 @@
 /* First Slide */
 .demo-1 .bg-1 .sl-slide-inner,
 .demo-1 .bg-1 .sl-content-slice {
-	background: #fff;
+	background: #bbbbbb;
 }
 
 /* Second Slide */
 .demo-1 .bg-2 .sl-slide-inner,
 .demo-1 .bg-2 .sl-content-slice {
-	background: #000;
+	background: #0c3052;
 }
 
 .demo-1 .bg-2 [data-icon]:after,
@@ -280,7 +280,7 @@
 }
 
 .demo-1 .bg-2 blockquote:before {
-	color: #222;
+	color: #fff;
 }
 
 /* Third Slide */
@@ -338,12 +338,12 @@
 /* Fifth Slide */
 .demo-1 .bg-5 .sl-slide-inner,
 .demo-1 .bg-5 .sl-content-slice {
-	background: #ffeb41;
-	opacity: 50;
+	background: #d2ac00;
 }
 
 .demo-1 .bg-5 .deco {
 	border-color: #ECD82C;
+
 }
 
 .demo-1 .bg-5 .deco:after {
@@ -362,7 +362,7 @@
 }
 
 
-.demo-1 .bg-img-1 {
+.demo-2 .bg-img-1 {
 	background-image: url('/es/img/slider/A.jpg');
 }
 .demo-2 .bg-img-2 {
@@ -373,11 +373,6 @@
 }
 .demo-2 .bg-img-4 {
 	background-image: url(../images/4.jpg);
-}
-#fondo7 {
-	background-image: url("/es/img/slider/A.jpg");
-	width: 800px;
-	height: 400px;
 }
 
 
