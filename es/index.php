@@ -292,6 +292,18 @@
 
 				.cambioColor:hover {color:#3f9dd6;}
 
+				A:link {text-decoration:none;color:#3f9dd6;} 
+
+
+				A:visited {text-decoration:none;color:#f5f7f8;} 
+
+
+				A:active {text-decoration:none;color:#3f9dd6;} 
+
+
+				A:hover {text-decoration:none;color:#a6b006;}
+
+
 			</style>
       		
 	
