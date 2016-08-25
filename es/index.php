@@ -388,14 +388,13 @@
 						
 						    <div align="justify">
 						 		Dacotrans con el apoyo de Daco Heavy Lift no hay carga demasiado grande que no se pueda manejar, haga click al link para más información
-						 		<a href="http://www.dacoheavylift.com/" target="_blank">dacoheavylift.com</a>
+						 		<button type="button" class="btn btn-info" href="http://www.dacoheavylift.com/" onclick="window.open('http://www.dacoheavylift.com/')" target="_blank">dacoheavylift.com</button>
 						 	</div>
 						</div>
 						<div class="clearfix"></div>
 					</div>
         		</div>
         		
-
       		
 			<!-- end: Row -->
 			<div class="span1"></div>
