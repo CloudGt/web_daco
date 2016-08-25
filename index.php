@@ -7,6 +7,4 @@
 		setcookie('ultima_sesion', 'es', false, '/', 'dacotrans.hol.es');
 		header('Location: /index.php');
 	}
-	//header('Location:/'.$_COOKIE['ultima_sesion'].'/index.php'); 
-
 ?> 
