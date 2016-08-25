@@ -649,9 +649,9 @@
 					<p>
 						<div class="icon-envelope"></div>
 						<a href="mailto:susan.hernandez@dacotrans.com.gt">susan.hernandez@ dacotrans.com.gt</a><br>
-						<div class="icon-th"></div>
+						<div class="fa fa-mobile"></div>
 						<a> 502 0000.0000</a><br>
-						<div class="icon-th"></div>
+						<div class="fa fa-phone"></div>
 						<a> 502 2381-1200 Ext.1252</a> 
 					</p>
 					<div class="social_profiles">
