@@ -265,18 +265,39 @@
 /* First Slide */
 .demo-1 .bg-1 .sl-slide-inner,
 .demo-1 .bg-1 .sl-content-slice {
-	background: #bbbbbb;
+	background: #0c3052;
+}
+
+.demo-1 .bg-1 [data-icon]:after,
+.demo-1 .bg-1 h2 {
+	color: #fff;
+}
+
+.demo-1 .bg-1 h2,
+.demo-1 .bg-1 blockquote{
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.demo-1 .bg-1 blockquote:before {
+	color: #fff;
 }
 
 /* Second Slide */
 .demo-1 .bg-2 .sl-slide-inner,
 .demo-1 .bg-2 .sl-content-slice {
-	background: #0c3052;
+	background: #34495e;
 }
 
 .demo-1 .bg-2 [data-icon]:after,
 .demo-1 .bg-2 h2 {
 	color: #fff;
+}
+
+.demo-1 .bg-2 h2,
+.demo-1 .bg-2 blockquote{
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
 .demo-1 .bg-2 blockquote:before {
@@ -286,28 +307,26 @@
 /* Third Slide */
 .demo-1 .bg-3 .sl-slide-inner,
 .demo-1 .bg-3 .sl-content-slice {
-	background: #db84ad;
+	background: #CD5C5C;
 }
 
 .demo-1 .bg-3 .deco {
-	border-color: #fff;
-	border-color: rgba(255,255,255,0.5);
+	border-color: #a94b4b;
 }
 
 .demo-1 .bg-3 [data-icon]:after {
-	color: #fff;
 	text-shadow: 0 0 1px #fff;
-	box-shadow: inset 0 0 0 10px #b55381;
+	color: #fff;
 }
 
 .demo-1 .bg-3 h2,
 .demo-1 .bg-3 blockquote{
 	color: #fff;
-	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
 .demo-1 .bg-3 blockquote:before {
-	color: #c46c96;
+	color: #a94b4b;
 }
 
 /* Forth Slide */
@@ -338,26 +357,52 @@
 /* Fifth Slide */
 .demo-1 .bg-5 .sl-slide-inner,
 .demo-1 .bg-5 .sl-content-slice {
-	background: #d2ac00;
+	background: #a68800;
 }
 
 .demo-1 .bg-5 .deco {
-	border-color: #ECD82C;
+	border-color: #8e7500;
 
 }
 
 .demo-1 .bg-5 .deco:after {
-	color: #000;
-	text-shadow: 0 0 1px #000;
+	color: #fff;
+	text-shadow: 0 0 1px #fff;
 }
 
 .demo-1 .bg-5 h2,
 .demo-1 .bg-5 blockquote{
-	color: #000;
+	color: #fff;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 }
 
 .demo-1 .bg-5 blockquote:before {
+	color: #8e7500;
+}
+
+/* Six Slide */
+.demo-1 .bg-6 .sl-slide-inner,
+.demo-1 .bg-6 .sl-content-slice {
+	background: #acded5;
+}
+
+.demo-1 .bg-6 .deco {
+	border-color: #ECD82C;
+
+}
+
+.demo-1 .bg-6 .deco:after {
+	color: #000;
+	text-shadow: 0 0 1px #000;
+}
+
+.demo-1 .bg-6 h2,
+.demo-1 .bg-6 blockquote{
+	color: #000;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+.demo-1 .bg-6 blockquote:before {
 	color: #ecd82c;
 }
 
