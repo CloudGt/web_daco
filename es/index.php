@@ -193,8 +193,8 @@
 					<div class="sl-slide bg-6" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
 						
 							<div class="sl-slide-inner">
-								<div class="deco" data-icon="P"></div>
-								<h2>PROYECTOS DE CARGA EXTRADIMENSIONADA</h2>
+								<div class="deco" data-icon="C"></div>
+								<h2>CARGA ESPECIAL</h2>
 								<blockquote><p>Contamos con equipos especialisados para el transporte de su carga Extradimensionada y con el personal certificado y calificado para su requerimiento.</p></blockquote>
 							</div>
 						

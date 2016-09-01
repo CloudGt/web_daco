@@ -332,16 +332,16 @@
 /* Forth Slide */
 .demo-1 .bg-4 .sl-slide-inner,
 .demo-1 .bg-4 .sl-content-slice {
-	background: #5bc2ce;
+	background: #00a0b2;
 }
 
 .demo-1 .bg-4 .deco {
-	border-color: #379eaa;
+	border-color: #008897;
 }
 
 .demo-1 .bg-4 [data-icon]:after {
-	text-shadow: 0 0 1px #277d87;
-	color: #277d87;
+	text-shadow: 0 0 1px #fff;
+	color: #fff;
 }
 
 .demo-1 .bg-4 h2,
@@ -357,11 +357,11 @@
 /* Fifth Slide */
 .demo-1 .bg-5 .sl-slide-inner,
 .demo-1 .bg-5 .sl-content-slice {
-	background: #a68800;
+	background: #d2ac00;
 }
 
 .demo-1 .bg-5 .deco {
-	border-color: #8e7500;
+	border-color: #c19e00;
 
 }
 
@@ -383,27 +383,27 @@
 /* Six Slide */
 .demo-1 .bg-6 .sl-slide-inner,
 .demo-1 .bg-6 .sl-content-slice {
-	background: #acded5;
+	background: #008567;
 }
 
 .demo-1 .bg-6 .deco {
-	border-color: #ECD82C;
+	border-color: #006c54;
 
 }
 
 .demo-1 .bg-6 .deco:after {
-	color: #000;
-	text-shadow: 0 0 1px #000;
+	color: #fff;
+	text-shadow: 0 0 1px #fff;
 }
 
 .demo-1 .bg-6 h2,
 .demo-1 .bg-6 blockquote{
-	color: #000;
+	color: #fff;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 }
 
 .demo-1 .bg-6 blockquote:before {
-	color: #ecd82c;
+	color: #8e7500;
 }
 
 
