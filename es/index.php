@@ -81,12 +81,15 @@
 									<li><a href="#" class="team">Nuestro Equipo</a></li>
 									<li><a href="#" class="contact">Cont&aacute;ctenos</a></li>
 									<li><a href="#" class="cotizacion">Cotizaci&oacute;n</a></li>
-									      <li id="menu" ><a href="#">Idioma&nbsp;</a>
-											<ul class="sub-menu">
-												<!--<li id="menu-item-1510" class="qtranxs-lang-menu-item qtranxs-lang-menu-item-es menu-item menu-item-type-custom menu-item-object-custom menu-item-1510"><a title="Español" href="dacotrans.hol.es"><img src="http://neptunlog.com/wp-content/plugins/qtranslate-x/flags/es.png" alt="Español">&nbsp;Español</a></li>
-												<li id="menu-item-1511" class="qtranxs-lang-menu-item qtranxs-lang-menu-item-en menu-item menu-item-type-custom menu-item-object-custom menu-item-1511"><a title="English" href="dacotrans.hol.es"><img src="http://neptunlog.com/wp-content/plugins/qtranslate-x/flags/us.png" alt="English">&nbsp;English</a></li>-->
-											</ul>
-										</li>
+									      <li class="dropdown" >
+									      		<a id="dropdown-menu" href="#" class="dropdown-toggle" data-toggle="dropdown" class="Idioma">Idioma</a>
+												<ul class="dropdown-menu">
+													<li><a title="English (en)" href="http://dacotrans.hol.es/en"><img src="img/en.jpg" width="20" height="20"> English</a>
+
+													</li>
+													<li><a title="Español - Internacional (es)" href="http://dacotrans.hol.es/es"><img src="img/es.png" width="18" height="20">  Español</a></li>
+												</ul>
+										  </li>												
 			            		</ul>
 			          		</div>
 			          		
@@ -312,6 +315,7 @@
 
 
 			</style>
+
       		
 	
         		<div class="span2">
@@ -321,7 +325,11 @@
 								<h3> Marítimo</h3>
 														
 						    	<div align="justify">
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+									Con nuestra amplia gama de productos de Flete Marítimo el cual cubre diferentes tipos de equipos y servicios de consolidación, nos aseguramos que la carga de nuestros clientes llegue al destino correcto,
+									<span class="label label-warning">Leer más...</span>
+									<div id="maritimo" style ="display: none">
+									 	en el tiempo acordado y económicamente  Naturalmente, nuestra experiencia también incluye manejo profesional de toda carga convencional.
+									</div>
 								</div>
 							</div>		
 							
@@ -338,7 +346,13 @@
 								<h3> Aéreo</h3>
 														
 						    	<div align="justify">
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+									Dacotrans de Centroamérica, SA es una empresa de transportes fiable, manejando carga aérea de todos los principales destinos del mundo entero. Para garantizar el mejor servicio, precios competitivos
+									<span class="label label-warning">Leer más...</span>
+									<div id="aereo" style ="display: none">
+									 	y una solución de transporte rápido para nuestros clientes, trabajamos exclusivamente con las compañías aéreas seleccionadas. Ademas  contamos con la certificacion de IATA
+
+										Nuestro equipo de profesionales le siga a través de cada uno de nuestros envíos de los clientes, por lo que puede estar seguro de informes de estado y actualizaciones diarias de transporte de mercancías.* PENDIENTE mencionar INTCOMEX.
+									</div>
 								</div>
 							</div>		
 						<div class="clearfix"></div>
@@ -352,7 +366,7 @@
 								<h3> Terrestre</h3>
 														
 						    	<div align="justify">
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+									Dacotrans de Centroamérica, SA ofrece a sus clientes un transporte terrestre confiable y eficiente, en toda América Central.
 								</div>
 							</div>		
 						<div class="clearfix"></div>
@@ -362,16 +376,17 @@
 	
         		<div class="span2">
           			<div class="icons-box">
-						<img src="img/servicios/camion3.jpg" class="img-circle" alt="cinque terre" width="180" height="140">
+						<img src="img/servicios/modular2.jpg" class="img-circle" alt="cinque terre" width="180" height="140">
 						<div class="cambioColor">
-								<h3> Transporte Local</h3>
-														
-						    	<div align="justify">
-									Contamos con equipos propios para realizar el traslado de la mercaderia hasta la puerta de la bodega del cliente.
-								</div>
-							</div>		
-						<div class="clearfix"></div>
+							<h3>Carga Especial</h3>
 						
+						    <div align="justify">
+						 		Dacotrans con el apoyo de Daco Heavy Lift no hay carga demasiado grande que no se pueda manejar, haga click al link para más información.
+
+						 		<button type="button" class="btn btn-info" href="http://www.dacoheavylift.com/" onclick="window.open('http://www.dacoheavylift.com/')" target="_blank">dacoheavylift.com</button>
+						 	</div>
+						</div>
+						<div class="clearfix"></div>
 					</div>
         		</div>
         		<!--<div class="row-fluid">-->
@@ -387,18 +402,31 @@
 					</div>
         		</div>-->
 
+        		
         		<div class="span2">
           			<div class="icons-box">
-						<img src="img/servicios/modular2.jpg" class="img-circle" alt="cinque terre" width="180" height="140">
+						<img src="img/servicios/aduana2.jpg" class="img-circle" alt="cinque terre" width="180" height="140">
 						<div class="cambioColor">
-							<h3>Carga Sobre Dimensionada</h3>
-						
-						    <div align="justify">
-						 		Dacotrans con el apoyo de Daco Heavy Lift no hay carga demasiado grande que no se pueda manejar, haga click al link para más información
-						 		<button type="button" class="btn btn-info" href="http://www.dacoheavylift.com/" onclick="window.open('http://www.dacoheavylift.com/')" target="_blank">dacoheavylift.com</button>
-						 	</div>
-						</div>
+								<h3> Manejo de Aduana</h3>
+														
+						    	<div align="justify">
+									En Dacotrans  se brindan servicios en gestiones aduanales, atendiendo así a las necesidades del mercado  logístico.
+								<span class="label label-warning">Leer más...</span>
+								<br>	
+								<div id="aduana" style ="display: none">
+									Contando con un equipo profesional dedicado únicamente al proceso de importación/exportación y aduanales.
+									Se garantiza su expediente de liberación de su carga y su entrega, ya que nosotros le hacemos todos los tramites, para
+									Que el cliente no se tiene que preocupar por su pedido.
+									También contamos con Gestiones con asesoría y seguimiento en operaciones aduanales internacionales.
+									<br>
+									<button type="button" class="btn btn-success" href="mailto:walter.mendez@dacotrans.com.gt: walter.mendez@ dacotrans.com.gt" onclick="window.open('mailto:walter.mendez@dacotrans.com.gt: walter.mendez@ dacotrans.com.gt')">Aduana Dacotrans</button>
+								</div>
+									
+									<!--<button type="button" class="btn btn-success" href="mailto:walter.mendez@dacotrans.com.gt" onclick="window.open('estuardo.florian@dacotrans.com.gt')">Aduana Dacotrans</button>-->
+								</div>
+							</div>		
 						<div class="clearfix"></div>
+						
 					</div>
         		</div>
         		
@@ -564,9 +592,9 @@
 					<p>
 					    <div class="icon-envelope"></div>
 						<a href="mailto:estuardo.florian@dacotrans.com.gt">estuardo.florian@ dacotrans.com.gt</a><br>
-						<div class="icon-th"></div>
+						<div class="fa fa-mobile"></div>
 						<a> 502 0000.0000</a><br>
-						<div class="icon-th"></div>
+						<div class="fa fa-phone"></div>
 						<a> 502 2381-1200 Ext.1270</a>
 					</p>
 					<div class="social_profiles">
@@ -593,9 +621,9 @@
 						<div class="icon-envelope"></div>
 
 						<a href="mailto:ilona.czapek@dacotrans.com.gt" >ilona.czapek@ dacotrans.com.gt</a><br>
-						<div class="icon-th"></div>
+						<div class="fa fa-mobile"></div>
 						<a> 502 0000.0000</a><br>
-						<div class="icon-th"></div>
+						<div class="fa fa-phone"></div>
 						<a> 502 2381-1200 Ext.1203</a> 
 					</p>
 					<div class="social_profiles">
@@ -621,9 +649,9 @@
 					<p>
 						<div class="icon-envelope"></div>
 						<a href="mailto:sharon.zea@dacotrans.com.gt">sharon.zea@ dacotrans.com.gt</a><br>
-						<div class="icon-th"></div>
+						<div class="fa fa-mobile"></div>
 						<a> 502 0000.0000</a><br>
-						<div class="icon-th"></div>
+						<div class="fa fa-phone"></div>
 						<a> 502 2381-1200 Ext.1204</a> 
 					</p>
 					<div class="social_profiles">
@@ -649,9 +677,9 @@
 					<p>
 						<div class="icon-envelope"></div>
 						<a href="mailto:susan.hernandez@dacotrans.com.gt">susan.hernandez@ dacotrans.com.gt</a><br>
-						<div class="icon-th"></div>
+						<div class="fa fa-mobile"></div>
 						<a> 502 0000.0000</a><br>
-						<div class="icon-th"></div>
+						<div class="fa fa-phone"></div>
 						<a> 502 2381-1200 Ext.1252</a> 
 					</p>
 					<div class="social_profiles">
@@ -673,14 +701,15 @@
 					</div>	
 					<div class="team-name">Gabriela Maltez</div>
 					<div class="position">Vendedora</div>
-					<p>
+					
 						<div class="icon-envelope"></div>
 						<a href="mailto:gabriela.maltez@dacotrans.com.gt">gabriela.maltez@ dacotrans.com.gt</a><br>
-						<div class="icon-th"></div>
+						<div class="fa fa-mobile"></div>
 						<a> 502 0000.0000</a><br>
-						<div class="icon-th"></div>
-						<a> 502 2381-1200 Ext.1249</a>. 
-					</p>
+						<div class="fa fa-phone"></div>
+						<a> 502 2381-1200 Ext.1249</a>
+							
+				
 					<div class="social_profiles">
 						<ul class="social-bookmarks">
 							<li class="facebook"><a href="">facebook</a></li>
