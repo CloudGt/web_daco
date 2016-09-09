@@ -503,7 +503,7 @@
 						</p>
 
 						<p>
-							Contamos con cobertura en toda Europa, destacando como uno de nuestros traficos mas fuertes ITALIA desde hace 35 arios ofreciendo los servicios: para carga consolidada maritima, equipos completes, carga aerea, carga extra dimensionada y proyectos. 
+							Contamos con cobertura en toda Europa, destacando como uno de nuestros traficos mas fuertes ITALIA desde hace 35 años ofreciendo los servicios: para carga consolidada maritima, equipos completos, carga aerea, carga extra dimensionada y proyectos. 
 						</p>
 
 
