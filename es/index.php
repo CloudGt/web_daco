@@ -515,22 +515,41 @@
 
 						<h3>Misión</h3>
 						<p>
-							<span class="dropcap">M</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+							<span class="dropcap">M</span>Somos una empresa multinacional alemana des servicios de transportes de carga desde y hacia los cinco continentes, por las vías aéreo, marítimo y terrestre. Nuestro compromiso es la satisfacción total de nuestros clientes y a través de un servicio seguro y profesional que comprende tarifas competitivas, tiempos cortos de tránsito, servicio de aduana, lo cual logramos con la capacitación constante de nuestro personal.
 						</p>
 
 						<h3>Visión</h3>
 						<p>
-							<span class="dropcap color">V</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+							<span class="dropcap color">V</span>Nuestro principal objetico es lograr un 100% de efectividad en el servicio al cliente, mantenernos dentro de las 9 mejores Agencias de carga en Guatemala e incrementar nuestro volumen de ventas con respecto a nuestra competencia.
 						</p>
 
 						<h3>Valores</h3>
 						<p>
-							<span class="dropcap dark">V</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+							<span class="dropcap dark">V</span>Para los clientes:
+								
+								•Buen servicio
+								•Cortesía 
+								•Responsabilidad
+								•Profesionalismo 
+								•Rapidez
+								
+
 						</p>
 
 						<p>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+								Para los compañeros:
+								•Comunicación y retroalimentación
+								•Apoyo y confianza
+								•Resolución de conflictos
+								•Servicio
+								•Respeto a diferencias 
+
+								En general:
+								•Superación personal
+								•Puntualidad
+
 						</p>
+						
 					</div>	
 					<!-- end: History -->
 
