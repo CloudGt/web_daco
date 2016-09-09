@@ -4,7 +4,7 @@
 	{
 		header('Location:/'.$_COOKIE['ultima_sesion'].'/index.php');
 	} else {
-		setcookie('ultima_sesion', 'es', false, '/', 'dacotrans.hol.es');
+		setcookie('ultima_sesion', 'es', false, '/', 'dacotrans.com.gt');
 		header('Location: /index.php');
 	}
 ?> 
