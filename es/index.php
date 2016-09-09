@@ -84,10 +84,10 @@
 									      <li class="dropdown" >
 									      		<a id="dropdown-menu" href="#" class="dropdown-toggle" data-toggle="dropdown" class="Idioma">Idioma</a>
 												<ul class="dropdown-menu">
-													<li><a title="English (en)" href="http://dacotrans.hol.es/en"><img src="img/en.jpg" width="20" height="20"> English</a>
+													<li><a title="English (en)" href="http://dacotrans.com.gt/en"><img src="img/en.jpg" width="20" height="20"> English</a>
 
 													</li>
-													<li><a title="Español - Internacional (es)" href="http://dacotrans.hol.es/es"><img src="img/es.png" width="18" height="20">  Español</a></li>
+													<li><a title="Español - Internacional (es)" href="http://dacotrans.com.gt/es"><img src="img/es.png" width="18" height="20">  Español</a></li>
 												</ul>
 										  </li>												
 			            		</ul>
@@ -326,9 +326,11 @@
 														
 						    	<div align="justify">
 									Con nuestra amplia gama de productos de Flete Marítimo el cual cubre diferentes tipos de equipos y servicios de consolidación, nos aseguramos que la carga de nuestros clientes llegue al destino correcto,
-									<span class="label label-warning">Leer más...</span>
-									<div id="maritimo" style ="display: none">
+									<span id= 'ocultar2'class="label label-warning" onclick="mostrar2()">Leer más...</span>
+									 
+									<div id='mostrar2' style='display:none;'>
 									 	en el tiempo acordado y económicamente  Naturalmente, nuestra experiencia también incluye manejo profesional de toda carga convencional.
+									 	<span class="label label-warning" onclick="ocultar2()">Leer menos...</span>
 									</div>
 								</div>
 							</div>		
@@ -338,6 +340,7 @@
 						
 					</div>
         		</div>
+        		   	
 
         		<div class="span2">
           			<div class="icons-box">
@@ -347,13 +350,15 @@
 														
 						    	<div align="justify">
 									Dacotrans de Centroamérica, SA es una empresa de transportes fiable, manejando carga aérea de todos los principales destinos del mundo entero. Para garantizar el mejor servicio, precios competitivos
-									<span class="label label-warning" onclick="mostrar()">Leer más...</span>
-									 <input id='ocultar' type="button" value="Leer mas" onclick="mostrar()"> 
+									<span id= 'ocultar'class="label label-warning" onclick="mostrar()">Leer más...</span>
+									 
 									<div id='mostrar' style='display:none;'>
 									 	y una solución de transporte rápido para nuestros clientes, trabajamos exclusivamente con las compañías aéreas seleccionadas. Ademas  contamos con la certificacion de IATA
 
 										Nuestro equipo de profesionales le siga a través de cada uno de nuestros envíos de los clientes, por lo que puede estar seguro de informes de estado y actualizaciones diarias de transporte de mercancías.* PENDIENTE mencionar INTCOMEX.
+										<span class="label label-warning" onclick="ocultar()">Leer menos...</span>
 									</div>
+									
 								</div>
 							</div>		
 						<div class="clearfix"></div>
@@ -412,18 +417,17 @@
 														
 						    	<div align="justify">
 									En Dacotrans  se brindan servicios en gestiones aduanales, atendiendo así a las necesidades del mercado  logístico.
-								<span class="label label-warning">Leer más...</span>
-								<br>	
-								<div id="aduana" style ="display: none">
+									<span id= 'ocultar3'class="label label-warning" onclick="mostrar3()">Leer más...</span>
+									 
+									<div id='mostrar3' style='display:none;'>
 									Contando con un equipo profesional dedicado únicamente al proceso de importación/exportación y aduanales.
 									Se garantiza su expediente de liberación de su carga y su entrega, ya que nosotros le hacemos todos los tramites, para
 									Que el cliente no se tiene que preocupar por su pedido.
 									También contamos con Gestiones con asesoría y seguimiento en operaciones aduanales internacionales.
 									<br>
-									<button type="button" class="btn btn-success" href="mailto:walter.mendez@dacotrans.com.gt: walter.mendez@ dacotrans.com.gt" onclick="window.open('mailto:walter.mendez@dacotrans.com.gt: walter.mendez@ dacotrans.com.gt')">Aduana Dacotrans</button>
-								</div>
-									
-									<!--<button type="button" class="btn btn-success" href="mailto:walter.mendez@dacotrans.com.gt" onclick="window.open('estuardo.florian@dacotrans.com.gt')">Aduana Dacotrans</button>-->
+										<span class="label label-warning" onclick="ocultar3()">Leer menos...</span>
+										<button type="button" class="btn btn-success" href="mailto:walter.mendez@dacotrans.com.gt">Aduana Dacotrans</button>
+									</div>
 								</div>
 							</div>		
 						<div class="clearfix"></div>
@@ -833,7 +837,7 @@
 					<div id="googlemaps">
 						<div id="map" class="google-map google-map-full"></div>
 					</div>
-					<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+					<script src="http://maps.google.com/maps/api/js?key=AIzaSyAYWfmBx3gWIE5W9HvQxmWG31uvCGqYTwA"></script>
 					<script src="js/jquery.gmap.min.js"></script>
 					<script type="text/javascript">
 						$('#map').gMap({
@@ -1122,7 +1126,45 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
+
+function mostrar(){
+	document.getElementById('ocultar').style.display = 'none';
+	document.getElementById('mostrar').style.display = 'block';
+}
+
+function ocultar(){
+	document.getElementById('ocultar').style.display = 'block';
+	document.getElementById('mostrar').style.display = 'none';
+}
+function mostrar2(){
+	document.getElementById('ocultar2').style.display = 'none';
+	document.getElementById('mostrar2').style.display = 'block';
+}
+
+function ocultar2(){
+	document.getElementById('ocultar2').style.display = 'block';
+	document.getElementById('mostrar2').style.display = 'none';
+}
+
+function mostrar3(){
+	document.getElementById('ocultar3').style.display = 'none';
+	document.getElementById('mostrar3').style.display = 'block';
+}
+
+function ocultar3(){
+	document.getElementById('ocultar3').style.display = 'block';
+	document.getElementById('mostrar3').style.display = 'none';
+}
+
+
+
+
+
+
+
 </script>
+
+
 <!-- end: Java Script -->
 
 </body>
