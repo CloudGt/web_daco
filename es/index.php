@@ -128,7 +128,7 @@
 								<div class="deco" ><img src="img/LOGO_NEGRO_DACO.png"></div>
 							
 								<h2>DACOTRANS DE CENTROAMERICA (GUATEMALA)</h2>
-								<blockquote><p>Con más de 40 años de experiencia en log&iacute;stica, somos su mejor aliado a nivel mundial para el manejo de su mercaderia.</p></blockquote>
+								<blockquote><p>Con más de 40 años de experiencia en log&iacute;stica, somos su mejor aliado a nivel mundial para el manejo de su mercadería.</p></blockquote>
 							</div>
 						</div>
 					</div>
@@ -167,7 +167,7 @@
 							
 									</div>
 										<h2>EXPORTACIONES</h2>
-							 			<blockquote><p>Su Exportación llega a su destino y bajos todas los estánderes de calidad en el servicio.</p></blockquote> 
+							 			<blockquote><p>Su exportación llega a su destino y bajos todas los estánderes de calidad en el servicio.</p></blockquote> 
 								</div>
 								
 							</div>
@@ -180,7 +180,7 @@
 						<div class="sl-slide-inner">
 							<div class="deco" data-icon="A"></div>
 							<h2>ADUANA</h2>
-							<blockquote><p>No importa si su carga tiene problemas en frontera nosotros le ayudamos a liberar su mercaderia con nuestro personal especialicidad en la materia</p></blockquote>
+							<blockquote><p>No importa si su carga tiene problemas en frontera nosotros le ayudamos a liberar su mercadería con nuestro personal especializado en la materia</p></blockquote>
 						</div>
 					</div>
 
@@ -188,7 +188,7 @@
 						<div class="sl-slide-inner">
 							<div class="deco" data-icon="S"></div>
 							<h2>SERVICIO DE TRANSPORTE LOCAL</h2>
-							<blockquote><p>Coordinamos la entrega de su mercaderia hasta la puerta de sus bodega.</p></blockquote>
+							<blockquote><p>Coordinamos la entrega de su mercadería hasta la puerta de sus bodega.</p></blockquote>
 						</div>
 					</div>
 
@@ -198,7 +198,7 @@
 							<div class="sl-slide-inner">
 								<div class="deco" data-icon="C"></div>
 								<h2>CARGA ESPECIAL</h2>
-								<blockquote><p>Contamos con equipos especialisados para el transporte de su carga Extradimensionada y con el personal certificado y calificado para su requerimiento.</p></blockquote>
+								<blockquote><p>Contamos con equipos especializados para el transporte de su carga Sobre-Dimensionado y con el personal certificado y calificado para su requerimiento.</p></blockquote>
 							</div>
 						
 					</div>
@@ -520,12 +520,12 @@
 
 						<h3>Misión</h3>
 						<p>
-							<span class="dropcap">M</span>Somos una empresa multinacional alemana des servicios de transportes de carga desde y hacia los cinco continentes, por las vías aéreo, marítimo y terrestre. Nuestro compromiso es la satisfacción total de nuestros clientes y a través de un servicio seguro y profesional que comprende tarifas competitivas, tiempos cortos de tránsito, servicio de aduana, lo cual logramos con la capacitación constante de nuestro personal.
+							<span class="dropcap">M</span>Somos una empresa multinacional alemana de servicios de transportes de carga desde y hacia los cinco continentes, por las vías aéreo, marítimo y terrestre. Nuestro compromiso es la satisfacción total de nuestros clientes y a través de un servicio seguro y profesional que comprende tarifas competitivas, tiempos cortos de tránsito, servicio de aduana, lo cual logramos con la capacitación constante de nuestro personal.
 						</p>
 
 						<h3>Visión</h3>
 						<p>
-							<span class="dropcap color">V</span>Nuestro principal objetico es lograr un 100% de efectividad en el servicio al cliente, mantenernos dentro de las 9 mejores Agencias de carga en Guatemala e incrementar nuestro volumen de ventas con respecto a nuestra competencia.
+							<span class="dropcap color">V</span>Nuestro principal objetivo es lograr un 100% de efectividad en el servicio al cliente, mantenernos dentro de las 9 mejores Agencias de carga en Guatemala e incrementar nuestro volumen de ventas con respecto a nuestra competencia.
 						</p>
 
 						<h3>Valores</h3>
