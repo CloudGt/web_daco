@@ -104,3 +104,11 @@ p img {
 .apst-button:hover {
     background-color: #212121 !important;
     }
+
+.ordenar_valores{
+    text-indent: 2cm;
+}
+
+.ordenar_titulos{
+    text-indent: 3cm;
+}

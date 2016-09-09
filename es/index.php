@@ -471,7 +471,7 @@
 			<!-- end: Page Title -->				
 		
 			<!--start: Row -->
-	    	<div class="row-fluid">
+	    	<div class="row-fluid" align="justify">
 		
 				<div class="span12">
 					
@@ -526,30 +526,14 @@
 
 						<h3>Valores</h3>
 						<p>
-							<span class="dropcap dark">V</span>Para los clientes:
-								
-								•Buen servicio
-								•Cortesía 
-								•Responsabilidad
-								•Profesionalismo 
-								•Rapidez
-								
-
+							<span class="dropcap dark">V</span>
+								Para los clientes: Buen servicio, Cortesía, Responsabilidad, Profesionalismo, Rapidez.
+								<br>Para los compañeros: Comunicación y retroalimentación, Apoyo y confianza, Resolución de conflictos, Servicio, Respeto a diferencias.
+								<br>En general: Superación personal, Puntualidad.
 						</p>
 
-						<p>
-								Para los compañeros:
-								•Comunicación y retroalimentación
-								•Apoyo y confianza
-								•Resolución de conflictos
-								•Servicio
-								•Respeto a diferencias 
+							
 
-								En general:
-								•Superación personal
-								•Puntualidad
-
-						</p>
 						
 					</div>	
 					<!-- end: History -->
