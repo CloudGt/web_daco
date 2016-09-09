@@ -601,9 +601,9 @@
 					    <div class="icon-envelope"></div>
 						<a href="mailto:estuardo.florian@dacotrans.com.gt">estuardo.florian@ dacotrans.com.gt</a><br>
 						<div class="fa fa-mobile"></div>
-						<a> 502 0000.0000</a><br>
+						<a href='tel:+50223811200'> 502 0000.0000</a><br>
 						<div class="fa fa-phone"></div>
-						<a> 502 2381-1200 Ext.1270</a>
+						<ahref='tel:+50223811200'> 502 2381-1200 Ext.1270</a>
 					</p>
 					<div class="social_profiles">
 						<ul class="social-bookmarks">
@@ -630,9 +630,9 @@
 
 						<a href="mailto:ilona.czapek@dacotrans.com.gt" >ilona.czapek@ dacotrans.com.gt</a><br>
 						<div class="fa fa-mobile"></div>
-						<a> 502 0000.0000</a><br>
+						<a href='tel:+50223811200'> 502 0000.0000</a><br>
 						<div class="fa fa-phone"></div>
-						<a> 502 2381-1200 Ext.1203</a> 
+						<a href='tel:+50223811200'> 502 2381-1200 Ext.1203</a> 
 					</p>
 					<div class="social_profiles">
 						<ul class="social-bookmarks">
@@ -658,9 +658,9 @@
 						<div class="icon-envelope"></div>
 						<a href="mailto:sharon.zea@dacotrans.com.gt">sharon.zea@ dacotrans.com.gt</a><br>
 						<div class="fa fa-mobile"></div>
-						<a> 502 0000.0000</a><br>
+						<a href='tel:+50223811200'> 502 0000.0000</a><br>
 						<div class="fa fa-phone"></div>
-						<a> 502 2381-1200 Ext.1204</a> 
+						<a href='tel:+50223811200'> 502 2381-1200 Ext.1204</a> 
 					</p>
 					<div class="social_profiles">
 						<ul class="social-bookmarks">
@@ -686,9 +686,9 @@
 						<div class="icon-envelope"></div>
 						<a href="mailto:susan.hernandez@dacotrans.com.gt">susan.hernandez@ dacotrans.com.gt</a><br>
 						<div class="fa fa-mobile"></div>
-						<a> 502 0000.0000</a><br>
+						<a href='tel:+50223811200'> 502 0000.0000</a><br>
 						<div class="fa fa-phone"></div>
-						<a> 502 2381-1200 Ext.1252</a> 
+						<a href='tel:+50223811200'> 502 2381-1200 Ext.1252</a> 
 					</p>
 					<div class="social_profiles">
 						<ul class="social-bookmarks">
@@ -713,9 +713,9 @@
 						<div class="icon-envelope"></div>
 						<a href="mailto:gabriela.maltez@dacotrans.com.gt">gabriela.maltez@ dacotrans.com.gt</a><br>
 						<div class="fa fa-mobile"></div>
-						<a> 502 0000.0000</a><br>
+						<a href='tel:+50223811200'> 502 0000.0000</a><br>
 						<div class="fa fa-phone"></div>
-						<a> 502 2381-1200 Ext.1249</a>
+						<a href='tel:+50223811200'> 502 2381-1200 Ext.1249</a>
 							
 				
 					<div class="social_profiles">
