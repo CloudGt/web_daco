@@ -347,8 +347,9 @@
 														
 						    	<div align="justify">
 									Dacotrans de Centroamérica, SA es una empresa de transportes fiable, manejando carga aérea de todos los principales destinos del mundo entero. Para garantizar el mejor servicio, precios competitivos
-									<span class="label label-warning">Leer más...</span>
-									<div id="aereo" style ="display: none">
+									<span class="label label-warning" onclick="mostrar()">Leer más...</span>
+									 <input id='ocultar' type="button" value="Leer mas" onclick="mostrar()"> 
+									<div id='mostrar' style='display:none;'>
 									 	y una solución de transporte rápido para nuestros clientes, trabajamos exclusivamente con las compañías aéreas seleccionadas. Ademas  contamos con la certificacion de IATA
 
 										Nuestro equipo de profesionales le siga a través de cada uno de nuestros envíos de los clientes, por lo que puede estar seguro de informes de estado y actualizaciones diarias de transporte de mercancías.* PENDIENTE mencionar INTCOMEX.
