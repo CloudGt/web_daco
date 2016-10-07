@@ -1,42 +1,5 @@
-<?php
-require 'corr/PHPMailerAutoload.php';
-
- $de= $_POST['name'];
- $remitente=  $_POST['de_email'];
- $telefono=  $_POST['tel'];
- $mensaje=  $_POST['el_body'];
-
-
-
-$mail = new PHPMailer;
-$mail->charSet = "UTF-8";
-//$mail->SMTPDebug = 3;                               // Enable verbose debug output
-
-$mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.gmail.com;';  // Specify main and backup SMTP servers
-$mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'leads.dacotrans@gmail.com';                 // SMTP username
-$mail->Password = '27071990';                           // SMTP password
-$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 587;                                    // TCP port to connect to
-$mail->from = $remitente;
-$mail->FromName = $de;
-$mail->setFrom($remitente, 'Contacto via web');
-
-
-$mail->addReplyTo($remitente, $de);
-$mail->addAddress('informatica@dacotrans.com.gt', 'User');     // Add a recipient
-$mail->addAddress('dacotrans@dacotrans.com.gt','sistema');               // Name is optional
-$mail->AddBCC('soporte@dacotrans.com.gt');
-//$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
-//$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
-$mail->isHTML(true);                                  // Set email format to HTML
-
-$mail->Subject = 'test';
-//$mail->Body    = $mensaje .'-- telefono ' .$telefono;
-
-$mail->Body= 
-'
+<?php 
+$cuerpo= '
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><!--[if IE]><html xmlns="http://www.w3.org/1999/xhtml" class="ie"><![endif]--><!--[if !IE]><!--><html style="margin: 0;padding: 0;" xmlns="http://www.w3.org/1999/xhtml"><!--<![endif]--><head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <!--[if !mso]><!--><meta http-equiv="X-UA-Compatible" content="IE=edge"><!--<![endif]-->
@@ -544,7 +507,7 @@ body{background-color:#f6f6f6}.mso h1{}.mso h1{font-family:Georgia,serif !import
     </div>
         
             <div style="Margin-left: 20px;Margin-right: 20px;">
-      <h1 class="size-48" style="Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;color: #2f353e;font-size: 36px;line-height: 43px;font-family: "PT Serif",Georgia,serif;text-align: center;" lang="x-size-48">&#183;Solicitud de contacto</h1><p style="Margin-top: 20px;Margin-bottom: 20px;">&nbsp;</p>
+      <h1 class="size-48" style="Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;color: #2f353e;font-size: 36px;line-height: 43px;font-family: "PT Serif",Georgia,serif;text-align: center;" lang="x-size-48">&#183;Solicitud de Mensaje</h1><p style="Margin-top: 20px;Margin-bottom: 20px;">&nbsp;</p>
     </div>
         
             <div style="Margin-left: 20px;Margin-right: 20px;">
@@ -552,7 +515,7 @@ body{background-color:#f6f6f6}.mso h1{}.mso h1{font-family:Georgia,serif !import
     </div>
         
             <div style="Margin-left: 20px;Margin-right: 20px;">
-      <p class="size-16" style="Margin-top: 0;Margin-bottom: 0;font-size: 16px;line-height: 24px;" lang="x-size-16">Nombre: <strong> '. $de. '</strong> <p class="size-16" style="Margin-top: 20px;Margin-bottom: 0;font-size: 16px;line-height: 24px;" lang="x-size-16">Telefono: <strong><a href= "tel:'.$de.'"">'.$telefono.'</a></strong></p> <p class="size-16" style="Margin-top: 0;Margin-bottom: 0;font-size: 16px;line-height: 24px;" lang="x-size-16">Correo: <strong> '. $remitente. '</strong><p class="size-16" style="Margin-top: 20px;Margin-bottom: 0;font-size: 16px;line-height: 24px;" lang="x-size-16">Mensaje:&nbsp;</p><p>['.$mensaje.']</p><p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 16px;line-height: 24px;" lang="x-size-16">&nbsp;</p>
+      <p class="size-16" style="Margin-top: 0;Margin-bottom: 0;font-size: 16px;line-height: 24px;" lang="x-size-16">Nombre:  '. $de ' <p class="size-16" style="Margin-top: 20px;Margin-bottom: 0;font-size: 16px;line-height: 24px;" lang="x-size-16">Telefono: -----</p><p class="size-16" style="Margin-top: 20px;Margin-bottom: 0;font-size: 16px;line-height: 24px;" lang="x-size-16">Mensaje:&nbsp;[texto del mensaje]</p><p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 16px;line-height: 24px;" lang="x-size-16">&nbsp;</p>
     </div>
         
             <div style="Margin-left: 20px;Margin-right: 20px;">
@@ -622,7 +585,9 @@ src="https://i10.createsend1.com/static/eb/master/13-the-blueprint-3/images/forw
         <!--[if (mso)|(IE)]><table align="center" cellpadding="0" cellspacing="0"><tr class="layout-email-footer"><td style="width: 600px;" class="w560"><![endif]-->
           <div class="column" style="text-align: left;font-size: 12px;line-height: 19px;color: #8e8e8e;font-family: "PT Sans","Trebuchet MS",sans-serif;max-width: 600px;min-width: 320px; width: 320px;width: calc(28000% - 167400px);">
             <div style="Margin-left: 20px;Margin-right: 20px;Margin-top: 10px;Margin-bottom: 10px;">
-              
+              <div>
+                <a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #8e8e8e;" href="http://cloudgt.createsend1.com/t/d-u-drujkiy-l-i/">Unsubscribe</a>
+              </div>
             </div>
           </div>
         <!--[if (mso)|(IE)]></td></tr></table><![endif]-->
@@ -641,21 +606,4 @@ $(document).ready(function () {
     CS.WebVersion.setup({"LikeActionBase":"/t/d-fb-drujkiy-l-","IsSubscriber":false});
 });
 </script>
-';
-
-
-
-
- 
-//$mail->Body    = file_get_contents('tmp_corr.php');
-$mail->AltBody = $mensaje;
-
-if(!$mail->send()) {
-//    echo 'Message could not be sent.';
-//    echo 'Mailer Error: ' . $mail->ErrorInfo;
- //   header('Location:/'.$_COOKIE['ultima_sesion'].'/index.php');
-} else {
-//    echo 'Message has been sent';
-   // header('Location:/'.$_COOKIE['ultima_sesion'].'/index.php');
-}
-?>
+'
