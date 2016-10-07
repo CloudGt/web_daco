@@ -1,6 +1,6 @@
 <?php 
 	//session_start(); 
-	setcookie('ultima_sesion', 'es',false, '/', 'dacotrans.hol.es');
+	setcookie('ultima_sesion', 'es',false, '/', 'dacotrans.com.gt');
 
  ?>
 
@@ -80,7 +80,7 @@
 									<li><a href="#" class="about">Acerca de Dacotrans...</a></li>
 									<li><a href="#" class="team">Nuestro Equipo</a></li>
 									<li><a href="#" class="contact">Cont&aacute;ctenos</a></li>
-									<li><a href="#" class="cotizacion">Cotizaci&oacute;n</a></li>
+								<!--	<li><a href="#" class="cotizacion">Cotizaci&oacute;n</a></li> 
 									      <li class="dropdown" >
 									      		<a id="dropdown-menu" href="#" class="dropdown-toggle" data-toggle="dropdown" class="Idioma">Idioma</a>
 												<ul class="dropdown-menu">
@@ -89,7 +89,7 @@
 													</li>
 													<li><a title="Español - Internacional (es)" href="http://dacotrans.com.gt/es"><img src="img/es.png" width="18" height="20">  Español</a></li>
 												</ul>
-										  </li>												
+										  </li>												-->
 			            		</ul>
 			          		</div>
 			          		
@@ -805,15 +805,15 @@
 					
 					<!-- start: Contact Form -->
 					<div id="contact-form">
-
-						<form method="post" action="">
+						<form id="formulario" method="post" action="envio.php" enctype="multipart/form-data">	
+			
 							
 							<fieldset>
 								
 								<input tabindex="4" id="name" name="name" type="text" value="" class="span12" placeholder="Nombre" >
-								<input tabindex="2" id="email" name="email" type="text" value="" class="span12" placeholder="Email">
-								<input tabindex="3" id="www" name="www" type="text" value="" class="span12" placeholder="Telefono">
-								<textarea tabindex="3" class="input-xlarge span12" id="message" name="body" rows="7" placeholder="Mensaje"></textarea>
+								<input tabindex="2" id="de_email" name="de_email" type="text" value="" class="span12" placeholder="Email">
+								<input tabindex="3" id="www" name="tel" type="text" value="" class="span12" placeholder="Telefono">
+								<textarea tabindex="3" class="input-xlarge span12" id="message" name="el_body" rows="7" placeholder="Mensaje"></textarea>
 
 								<div class="actions">
 									<button tabindex="3" type="submit" class="btn btn-succes btn-large">Enviar Mensaje</button>
@@ -821,6 +821,7 @@
 								
 							</fieldset>
 
+						
 						</form>
 
 					</div>
