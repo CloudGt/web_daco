@@ -411,9 +411,7 @@ Contamos con la certificación de Agente de IATA, y nos encontramos ubicados en 
 						<div class="clearfix"></div>
 					</div>
         		</div>-->
-        		<div class= 'colms12'> 
-        			
-        		</div>
+        		
         		
         		<div class="span2">
           			<div class="icons-box">
@@ -449,7 +447,9 @@ Contamos con la certificación de Agente de IATA, y nos encontramos ubicados en 
 		
 		</div>
 		<!--end: Container -->
-		
+		<!--<div class= 'span12'>  -->
+        			<center><h2>Contáctenos para solicitar cualquiera de nuestros servicios.</h2></center>
+        <!-- 		</div>-->
 	</div>
 	<!-- end: 3rd Page - Services -->
 	
@@ -486,35 +486,34 @@ Contamos con la certificación de Agente de IATA, y nos encontramos ubicados en 
 					<div id="story">
 						<h3>Nuestra Historia</h3>
 						<p>
-							Empresa de logistica fundada en el año 1,969 como parte del grupo de embarcadores, somos agentes autorizados por IATA- FIATA.
+							Dacotrans de Guatemala, es una empresa de logística fundada en el año 1969, como parte de un grupo de embarcadores a nivel mundial.
 						</p>
 						<p>
-							Actualmente nuestra organización esta conformada por mas de 100 empleados a quienes capacitamos constantemente para ofrecer soluciones y servicios integrados. 
+							Actualmente nuestra organización está conformada por más de 100 colaboradores, quienes reciben una capacitación continua para ofrecer las mejores soluciones y servicios integrados a todos nuestros clientes.
 						</p>
 						<p>
-							Nuestras oficinas centrales se encuentran ubicadas estrategicamente en Almacenadora lntegrada "Coalsa" en donde se descargan cargas consolidada teniendo acceso a la supervision de cada tramite, de igual manera estamos ubicados en el interior de la terminal aerea de carga en el aeropuerto internacional de la ciudad de Guatemala "La Aurora". 
+							Nuestras oficinas centrales se encuentran ubicadas estratégicamente en Almacenadora lntegrada "Coalsa" en la Ciudad de Guatemala,  lo que nos permite mantener una supervisión continua de los trámites en el manejo de cargas consolidadas. También estamos ubicados en el interior de la terminal aérea de carga en el Aeropuerto Internacional de la Ciudad de Guatemala "La Aurora".
 						</p>
 						<p>
-							El Grupo de Dacotrans Guatemala esta conformado por tres empresas:
+							Contamos con cobertura en toda Europa desde hace 35 años, destacando Italia como uno de nuestros tráficos más relevantes. Ofreciendo los servicios para carga consolidada marítima, equipos completos, carga aérea, carga sobredimensionada y proyectos.
+						</p>
+						<p>
+						Somos Agentes autorizados por IATA- FIATA.
+						</p>
+						<p>
+						El Grupo Dacotrans de Guatemala está conformado por tres empresas:
+						</p>	
+						<p>
+							•Dacotrans de Guatemala: Embarcadora a nivel mundial de carga consolidada, equipos completos, carga aérea, carga suelta (Break Bulk; cuenta con camiones propios para entregas a domicilio y con un departamento interno de trámites aduanales.
 						</p>
 
 						<p>
-							•Dacotrans de Guatemala: Embarcadora a nivel mundial de carga consolidada, equipos completos, carga áerea, carga suelta (Break Bulk), proyectos para todo tipo de carga, camiones propios para entregas a domicilio y departamento interno de aduana.
+							• Daco Heavy Lift: Empresa especializada en transporte de carga sobredimensionada y sobre pesada (hasta de 400,000 Kgs); cuenta con equipos de transporte y traileres propios para realizar este servicio. Ofrece también el servicio de entrega de carga especial sobre sus fundamentos. Se tiene presencia en toda Centro América, Islas del Caribe y en la parte norte de América del Sur.
 						</p>
 
 						<p>
-							• Daco Heavy Lift S.A: Empresa especializada en transporte de carga extra dimensionada y sobre pesada hasta de 400,000Kgs con transporte y traileres propios para realizar dichas entregas las cuales tambien realizamos sobre fundamentos, como Daco Heavy Lift tenemos presencia en toda Centroamerica, Islas del Cari be y pa rte del Norte de America del Sur. 
+							• Grúas de Centroamérica: Empresa especializada en el servicio de grúas; cuenta con grúas propias con capacidad de hasta 500 Toneladas.
 						</p>
-
-						<p>
-							• Gruas de Centroamerica: Contamos con Gruas propias con capacidad hasta de 500 Toneladas.
-						</p>
-
-						<p>
-							Contamos con cobertura en toda Europa, destacando como uno de nuestros traficos mas fuertes ITALIA desde hace 35 arios ofreciendo los servicios: para carga consolidada maritima, equipos completes, carga aerea, carga extra dimensionada y proyectos. 
-						</p>
-
-
 					</div>	
 					<!-- end: About Us -->
 
@@ -523,20 +522,20 @@ Contamos con la certificación de Agente de IATA, y nos encontramos ubicados en 
 
 						<h3>Misión</h3>
 						<p>
-							<span class="dropcap">M</span>Somos una empresa multinacional alemana de servicios de transportes de carga desde y hacia los cinco continentes, por las vías aéreo, marítimo y terrestre. Nuestro compromiso es la satisfacción total de nuestros clientes y a través de un servicio seguro y profesional que comprende tarifas competitivas, tiempos cortos de tránsito, servicio de aduana, lo cual logramos con la capacitación constante de nuestro personal.
+							<span class="dropcap">M</span>Somos una empresa multinacional alemana de servicios de transportes de carga desde y hacia los cinco continentes, por las vías aéreo, marítimo y terrestre. Nuestro compromiso es la satisfacción total de nuestros clientes a través de un servicio seguro y profesional que comprende tarifas competitivas, tiempos cortos de tránsito, servicio de aduana, lo cual logramos con la capacitación constante de nuestro personal.
 						</p>
 
 						<h3>Visión</h3>
 						<p>
-							<span class="dropcap color">V</span>Nuestro principal objetivo es lograr un 100% de efectividad en el servicio al cliente, mantenernos dentro de las 9 mejores Agencias de carga en Guatemala e incrementar nuestro volumen de ventas con respecto a nuestra competencia.
+							<span class="dropcap color">V</span>Nuestro principal objetivo es lograr un 100% de efectividad en el servicio al cliente, mantenernos dentro de las 9 mejores Agencias de Carga en Guatemala e incrementar nuestro volumen de ventas con respecto a nuestra competencia.
 						</p>
 
 						<h3>Valores</h3>
 						<p>
 							<span class="dropcap dark">V</span>
-								Para los clientes: Buen servicio, Cortesía, Responsabilidad, Profesionalismo, Rapidez.
-								<br>Para los compañeros: Comunicación y retroalimentación, Apoyo y confianza, Resolución de conflictos, Servicio, Respeto a diferencias.
-								<br>En general: Superación personal, Puntualidad.
+								Para los clientes: buen servicio, cortesía, responsabilidad, profesionalismo, rapidez. 
+								<br>Para los compañeros: comunicación y retroalimentación, apoyo y confianza, resolución de conflictos, servicio, respeto a diferencias. 
+								<br>En general: superación personal, puntualidad.
 						</p>
 
 							
