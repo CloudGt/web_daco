@@ -128,7 +128,7 @@
 								<div class="deco" ><img src="img/LOGO_NEGRO_DACO.png"></div>
 							
 								<h2>DACOTRANS DE CENTROAMERICA (GUATEMALA)</h2>
-								<blockquote><p>Con más de 40 años de experiencia en log&iacute;stica, somos su mejor aliado a nivel mundial para el manejo de su mercadería.</p></blockquote>
+								<blockquote><p>Con más de 40 años de experiencia en log&iacute;stica, somos su mejor aliado a nivel mundial para el manejo de su carga.</p></blockquote>
 							</div>
 						</div>
 					</div>
@@ -146,7 +146,7 @@
 							
 									</div>
 									<h2>IMPORTACIONES</h2>
-									<blockquote><p>Servicio de importaciones a toda parte del mundo.</p></blockquote>X 
+									<blockquote><p>Recogemos su carga desde cualquier lugar del mundo.</p></blockquote>X 
 								</div>
 								
 							</div>
@@ -167,7 +167,8 @@
 							
 									</div>
 										<h2>EXPORTACIONES</h2>
-							 			<blockquote><p>Su exportación llega a su destino y bajos todas los estánderes de calidad en el servicio.</p></blockquote> 
+							 			<blockquote><p>Su exportación llega a su destino a tiempo y bajos todos los estndares de calidad en el servicio.</p></blockquote> 
+
 								</div>
 								
 							</div>
@@ -180,15 +181,15 @@
 						<div class="sl-slide-inner">
 							<div class="deco" data-icon="A"></div>
 							<h2>ADUANA</h2>
-							<blockquote><p>No importa si su carga tiene problemas en frontera nosotros le ayudamos a liberar su mercadería con nuestro personal especializado en la materia</p></blockquote>
+							<blockquote><p>Le ahorramos tiempo y dinero con nuestros servicios aduanales</p></blockquote>
 						</div>
 					</div>
 
 					<div class="sl-slide bg-5" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
 						<div class="sl-slide-inner">
 							<div class="deco" data-icon="S"></div>
-							<h2>SERVICIO DE TRANSPORTE LOCAL</h2>
-							<blockquote><p>Coordinamos la entrega de su mercadería hasta la puerta de sus bodega.</p></blockquote>
+							<h2>TRANSPORTE LOCAL</h2>
+							<blockquote><p>Coordinamos la entrega de su carga hasta la puerta de su bodega.</p></blockquote>
 						</div>
 					</div>
 
@@ -198,7 +199,7 @@
 							<div class="sl-slide-inner">
 								<div class="deco" data-icon="C"></div>
 								<h2>CARGA ESPECIAL</h2>
-								<blockquote><p>Contamos con equipos especializados para el transporte de su carga Sobre-Dimensionado y con el personal certificado y calificado para su requerimiento.</p></blockquote>
+								<blockquote><p>Su carga sobre dimensionada es manejada por nuestro equipo de profesionales utilizando nuestros propios equipos de transporte.</p></blockquote>
 							</div>
 						
 					</div>
@@ -325,11 +326,12 @@
 								<h3> Marítimo</h3>
 														
 						    	<div align="justify">
-									Con nuestra amplia gama de productos de Flete Marítimo el cual cubre diferentes tipos de equipos y servicios de consolidación, nos aseguramos que la carga de nuestros clientes llegue al destino correcto,
+									Nuestra amplia gama de servicios para flete marítimo nos permite manejar el transporte y envió de contenedores, así como también la consolidación de carga, de la manera más eficiente y económica para nuestros clientes.
 									<span id= 'ocultar2'class="label label-warning" onclick="mostrar2()">Leer más...</span>
 									 
 									<div id='mostrar2' style='display:none;'>
-									 	en el tiempo acordado y económicamente  Naturalmente, nuestra experiencia también incluye manejo profesional de toda carga convencional.
+										<P></P>
+									 	Prestamos el servicio de importación desde USA, Europa y Asia con la modalidad "puerta-puerto-puerta" (Door To Door). Lo mismo aplica para los servicios de exportación.
 									 	<span class="label label-warning" onclick="ocultar2()">Leer menos...</span>
 									</div>
 								</div>
@@ -349,13 +351,15 @@
 								<h3> Aéreo</h3>
 														
 						    	<div align="justify">
-									Dacotrans de Centroamérica, SA es una empresa de transportes fiable, manejando carga aérea de todos los principales destinos del mundo entero. Para garantizar el mejor servicio, precios competitivos
+									Manejamos carga aérea de los principales destinos del mundo, en la modalidad “Door to Door”. Trabajamos con compañías aéreas seleccionadas lo que nos permite ofrecer precios competitivos,  el mejor servicio y una solución de transporte rápido para nuestros clientes.
 									<span id= 'ocultar'class="label label-warning" onclick="mostrar()">Leer más...</span>
 									 
 									<div id='mostrar' style='display:none;'>
 									 	y una solución de transporte rápido para nuestros clientes, trabajamos exclusivamente con las compañías aéreas seleccionadas. Ademas  contamos con la certificacion de IATA
 
-										Nuestro equipo de profesionales le siga a través de cada uno de nuestros envíos de los clientes, por lo que puede estar seguro de informes de estado y actualizaciones diarias de transporte de mercancías.* PENDIENTE mencionar INTCOMEX.
+										Nuestro equipo de profesionales lo mantendrá informado a lo largo de todo el proceso.
+Contamos con la certificación de Agente de IATA, y nos encontramos ubicados en la terminal de  carga aérea del Aeropuerto Internacional de la Ciudad de Guatemala.
+
 										<span class="label label-warning" onclick="ocultar()">Leer menos...</span>
 									</div>
 									
@@ -372,7 +376,7 @@
 								<h3> Terrestre</h3>
 														
 						    	<div align="justify">
-									Dacotrans de Centroamérica, SA ofrece a sus clientes un transporte terrestre confiable y eficiente, en toda América Central.
+									Ofrecemos el servicio de transporte de carga nacional e internacional, en la modalidad “Door to Door”, de forma eficiente y confiable en toda Centro América y México.
 								</div>
 							</div>		
 						<div class="clearfix"></div>
@@ -387,7 +391,7 @@
 							<h3>Carga Especial</h3>
 						
 						    <div align="justify">
-						 		Dacotrans con el apoyo de Daco Heavy Lift no hay carga demasiado grande que no se pueda manejar, haga click al link para más información.
+						 		A través de nuestro socio Daco Heavy Lift, ofrecemos el servicio especializado en transporte de maquinaria pesada, cargas especiales y carga sobredimensionada.  Para mayor información favor hacer click en el link.
 
 						 		<button type="button" class="btn btn-info" href="http://www.dacoheavylift.com/" onclick="window.open('http://www.dacoheavylift.com/')" target="_blank">dacoheavylift.com</button>
 						 	</div>
@@ -407,7 +411,9 @@
 						<div class="clearfix"></div>
 					</div>
         		</div>-->
-
+        		<div class= 'colms12'> 
+        			
+        		</div>
         		
         		<div class="span2">
           			<div class="icons-box">
@@ -416,17 +422,14 @@
 								<h3> Manejo de Aduana</h3>
 														
 						    	<div align="justify">
-									En Dacotrans  se brindan servicios en gestiones aduanales, atendiendo así a las necesidades del mercado  logístico.
+									Brindamos soluciones aduanales que le permiten ahorrar tiempo y dinero. 
 									<span id= 'ocultar3'class="label label-warning" onclick="mostrar3()">Leer más...</span>
 									 
 									<div id='mostrar3' style='display:none;'>
-									Contando con un equipo profesional dedicado únicamente al proceso de importación/exportación y aduanales.
-									Se garantiza su expediente de liberación de su carga y su entrega, ya que nosotros le hacemos todos los tramites, para
-									Que el cliente no se tiene que preocupar por su pedido.
-									También contamos con Gestiones con asesoría y seguimiento en operaciones aduanales internacionales.
+									Nuestro equipo de profesionales aduanales están comprometidos con ofrecer el mejor servicio, asesoría y atención personalizada a cada cliente. Contamos con la capacidad de atender de forma expedita sus necesidades de trámites aduanales en las operaciones de importación y exportación para cargas marítimas, aéreas y terrestres.
 									<br>
 										<span class="label label-warning" onclick="ocultar3()">Leer menos...</span>
-										<button type="button" class="btn btn-success" href="mailto:walter.mendez@dacotrans.com.gt">Aduana Dacotrans</button>
+										
 									</div>
 								</div>
 							</div>		
@@ -600,10 +603,10 @@
 					<p>
 					    <div class="icon-envelope"></div>
 						<a href="mailto:estuardo.florian@dacotrans.com.gt">estuardo.florian@ dacotrans.com.gt</a><br>
-						<div class="fa fa-mobile"></div>
-						<a href='tel:+50223811200'> 502 0000.0000</a><br>
+						<!-- <div class="fa fa-mobile"></div> -->
+						<!-- <a href='tel:+50223811200'> 502 0000.0000</a><br> -->
 						<div class="fa fa-phone"></div>
-						<ahref='tel:+50223811200'> 502 2381-1200 Ext.1270</a>
+						<a href='tel:+50223811200'> 502 2381-1200 Ext.1270</a>
 					</p>
 					<div class="social_profiles">
 						<ul class="social-bookmarks">
@@ -629,8 +632,8 @@
 						<div class="icon-envelope"></div>
 
 						<a href="mailto:ilona.czapek@dacotrans.com.gt" >ilona.czapek@ dacotrans.com.gt</a><br>
-						<div class="fa fa-mobile"></div>
-						<a href='tel:+50223811200'> 502 0000.0000</a><br>
+						<!-- <div class="fa fa-mobile"></div> -->
+						<!-- <a href='tel:+50223811200'> 502 0000.0000</a><br> -->
 						<div class="fa fa-phone"></div>
 						<a href='tel:+50223811200'> 502 2381-1200 Ext.1203</a> 
 					</p>
@@ -650,15 +653,15 @@
 				<!-- start: About Member -->
 				<div class="span2">
 					<div class="avatar">
-						<img class="img-circle" src="img/vededora2.png" alt="team member">
+						<img class="img-circle" src="img/vededora.png" alt="team member">
 					</div>	
 					<div class="team-name">Sharon Zea</div>
 					<div class="position">Vendedora</div>
 					<p>
 						<div class="icon-envelope"></div>
 						<a href="mailto:sharon.zea@dacotrans.com.gt">sharon.zea@ dacotrans.com.gt</a><br>
-						<div class="fa fa-mobile"></div>
-						<a href='tel:+50223811200'> 502 0000.0000</a><br>
+						<!-- <div class="fa fa-mobile"></div> -->
+						<!-- <a href='tel:+50223811200'> 502 0000.0000</a><br> -->
 						<div class="fa fa-phone"></div>
 						<a href='tel:+50223811200'> 502 2381-1200 Ext.1204</a> 
 					</p>
@@ -685,8 +688,8 @@
 					<p>
 						<div class="icon-envelope"></div>
 						<a href="mailto:susan.hernandez@dacotrans.com.gt">susan.hernandez@ dacotrans.com.gt</a><br>
-						<div class="fa fa-mobile"></div>
-						<a href='tel:+50223811200'> 502 0000.0000</a><br>
+						<!-- <div class="fa fa-mobile"></div> -->
+						<!-- <a href='tel:+50223811200'> 502 0000.0000</a><br> -->
 						<div class="fa fa-phone"></div>
 						<a href='tel:+50223811200'> 502 2381-1200 Ext.1252</a> 
 					</p>
@@ -712,8 +715,8 @@
 					
 						<div class="icon-envelope"></div>
 						<a href="mailto:gabriela.maltez@dacotrans.com.gt">gabriela.maltez@ dacotrans.com.gt</a><br>
-						<div class="fa fa-mobile"></div>
-						<a href='tel:+50223811200'> 502 0000.0000</a><br>
+						<!-- <div class="fa fa-mobile"></div> -->
+						<!-- <a href='tel:+50223811200'> 502 0000.0000</a><br> -->
 						<div class="fa fa-phone"></div>
 						<a href='tel:+50223811200'> 502 2381-1200 Ext.1249</a>
 							

@@ -25,7 +25,7 @@ $mail->setFrom($remitente, 'Contacto via web');
 
 
 $mail->addReplyTo($remitente, $de);
-$mail->addAddress('informatica@dacotrans.com.gt', 'User');     // Add a recipient
+//$mail->addAddress('informatica@dacotrans.com.gt', 'User');     // Add a recipient
 $mail->addAddress('dacotrans@dacotrans.com.gt','sistema');               // Name is optional
 $mail->AddBCC('soporte@dacotrans.com.gt');
 //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
@@ -38,7 +38,7 @@ $mail->Subject = 'test';
 $mail->Body= 
 '
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><!--[if IE]><html xmlns="http://www.w3.org/1999/xhtml" class="ie"><![endif]--><!--[if !IE]><!--><html style="margin: 0;padding: 0;" xmlns="http://www.w3.org/1999/xhtml"><!--<![endif]--><head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!--[if !mso]><!--><meta http-equiv="X-UA-Compatible" content="IE=edge"><!--<![endif]-->
     <meta name="viewport" content="width=device-width"><style type="text/css">
 @media only screen and (min-width: 620px){.wrapper h1{}.wrapper h1{font-size:26px !important;line-height:34px !important}.wrapper h2{}.wrapper h2{font-size:20px !important;line-height:28px !important}.wrapper h3{}.column p,.column ol,.column ul{}.wrapper .size-8{font-size:8px !important;line-height:14px !important}.wrapper .size-9{font-size:9px !important;line-height:16px !important}.wrapper .size-10{font-size:10px !important;line-height:18px !important}.wrapper .size-11{font-size:11px !important;line-height:19px !important}.wrapper .size-12{font-size:12px !important;line-height:19px !important}.wrapper .size-13{font-size:13px !important;line-height:21px !important}.wrapper .size-14{font-size:14px !important;line-height:21px !important}.wrapper .size-15{font-size:15px !important;line-height:23px !important}.wrapper .size-16{font-size:16px !important;line-height:24px !important}.wrapper 
@@ -648,14 +648,16 @@ $(document).ready(function () {
 
  
 //$mail->Body    = file_get_contents('tmp_corr.php');
-$mail->AltBody = $mensaje;
+ 
+//$mail->Body    = file_get_contents('tmp_corr.php');
+$mail->AltBody = 'se ha enviado el siguiente mensaje: '. $mensaje. 'contacto:'.$telefono;
 
 if(!$mail->send()) {
 //    echo 'Message could not be sent.';
 //    echo 'Mailer Error: ' . $mail->ErrorInfo;
- //   header('Location:/'.$_COOKIE['ultima_sesion'].'/index.php');
+    header('Location:index.php');
 } else {
 //    echo 'Message has been sent';
-   // header('Location:/'.$_COOKIE['ultima_sesion'].'/index.php');
+   header('Location:index.php');
 }
 ?>
