@@ -126,8 +126,9 @@
 						<div class="sl-slide-inner">
 							<div class='bg-img bg-img-1'>
 								<div class="deco" ><img src="img/LOGO_NEGRO_DACO.png"></div>
-							
-								<h2>DACOTRANS DE CENTROAMERICA (GUATEMALA)</h2>
+								<p></p><p></p>
+								<h2><br>DACOTRANS DE CENTROAMERICA</br><p>
+								 <h3>(GUATEMALA)</h3><p>
 								<blockquote><p>Con más de 40 años de experiencia en log&iacute;stica, somos su mejor aliado a nivel mundial para el manejo de su carga.</p></blockquote>
 							</div>
 						</div>
@@ -142,11 +143,11 @@
 									</div>
 									<div class="col-md-4">
 										
-									<div class="deco" data-icon="I"></div>	
+									<div class="deco" data-icon-2="I"></div>	
 							
 									</div>
 									<h2>IMPORTACIONES</h2>
-									<blockquote><p>Recogemos su carga desde cualquier lugar del mundo.</p></blockquote>X 
+									<blockquote><p>Recogemos su carga desde cualquier lugar del mundo.</p></blockquote>
 								</div>
 								
 							</div>
@@ -163,11 +164,11 @@
 									</div>
 									<div class="col-md-4">
 													
-										<div class="deco" data-icon="E"></div>	
+										<div class="deco" data-icon-3="E"></div>	
 							
 									</div>
 										<h2>EXPORTACIONES</h2>
-							 			<blockquote><p>Su exportación llega a su destino a tiempo y bajos todos los estndares de calidad en el servicio.</p></blockquote> 
+							 			<blockquote><p>Su exportación llega a su destino a tiempo y bajos todos los estandares de calidad en el servicio.</p></blockquote> 
 
 								</div>
 								
@@ -179,7 +180,7 @@
 
 					<div class="sl-slide bg-4" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
 						<div class="sl-slide-inner">
-							<div class="deco" data-icon="A"></div>
+							<div class="deco" data-icon-4="A"></div>
 							<h2>ADUANA</h2>
 							<blockquote><p>Le ahorramos tiempo y dinero con nuestros servicios aduanales</p></blockquote>
 						</div>
@@ -187,7 +188,7 @@
 
 					<div class="sl-slide bg-5" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
 						<div class="sl-slide-inner">
-							<div class="deco" data-icon="S"></div>
+							<div class="deco" data-icon-5="S"></div>
 							<h2>TRANSPORTE LOCAL</h2>
 							<blockquote><p>Coordinamos la entrega de su carga hasta la puerta de su bodega.</p></blockquote>
 						</div>
@@ -197,7 +198,7 @@
 					<div class="sl-slide bg-6" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
 						
 							<div class="sl-slide-inner">
-								<div class="deco" data-icon="C"></div>
+								<div class="deco" data-icon-6="C"></div>
 								<h2>CARGA ESPECIAL</h2>
 								<blockquote><p>Su carga sobre dimensionada es manejada por nuestro equipo de profesionales utilizando nuestros propios equipos de transporte.</p></blockquote>
 							</div>
@@ -230,7 +231,7 @@
 
 	<!-- start: 2nd Page - Pricing Tables -->
 	<div id="history_board" class="color blue2">
-		
+
 		<!--start: Container -->
 		<div class="container">
 
@@ -238,9 +239,9 @@
 			<div class="wrapper span12">
 
 				<!-- start: Page Title -->
-				<div id="page-title">
+				<div id="page-title1">
 
-					<div id="page-title-inner">
+					<div id="page-title1-inner">
 
 						<h2><span>Video institucional</span></h2>
 
@@ -276,9 +277,9 @@
 			<div class="wrapper span12">
 				
 							<!-- start: Page Title -->
-			<div id="page-title">
+			<div id="page-title2">
 
-				<div id="page-title-inner">
+				<div id="page-title2-inner">
 
 					<h2><span>Servicios</span></h2>
 
@@ -297,7 +298,7 @@
 
 				/* Definimos el color inicial */
 
-				.cambioColor {color:#f5f7f8;}
+				.cambioColor {color:#070e52;}
 
 				/* Definimos el color al pasar el mouse por encima */
 
@@ -358,7 +359,7 @@
 									 	y una solución de transporte rápido para nuestros clientes, trabajamos exclusivamente con las compañías aéreas seleccionadas. Ademas  contamos con la certificacion de IATA
 
 										Nuestro equipo de profesionales lo mantendrá informado a lo largo de todo el proceso.
-Contamos con la certificación de Agente de IATA, y nos encontramos ubicados en la terminal de  carga aérea del Aeropuerto Internacional de la Ciudad de Guatemala.
+										Contamos con la certificación de Agente de IATA, y nos encontramos ubicados en la terminal de  carga aérea del Aeropuerto Internacional de la Ciudad de Guatemala.
 
 										<span class="label label-warning" onclick="ocultar()">Leer menos...</span>
 									</div>
@@ -446,10 +447,8 @@ Contamos con la certificación de Agente de IATA, y nos encontramos ubicados en 
 			<!-- end: Wrapper -->
 		
 		</div>
-		<!--end: Container -->
-		<!--<div class= 'span12'>  -->
-        			<center><h2>Contáctenos para solicitar cualquiera de nuestros servicios.</h2></center>
-        <!-- 		</div>-->
+<!--end: Container -->
+       	<center><h2>Contáctenos para solicitar cualquiera de nuestros servicios.</h2></center>
 	</div>
 	<!-- end: 3rd Page - Services -->
 	
@@ -466,9 +465,9 @@ Contamos con la certificación de Agente de IATA, y nos encontramos ubicados en 
 			<div class="wrapper span12">
 
 							<!-- start: Page Title -->
-			<div id="page-title">
+			<div id="page-title3">
 
-				<div id="page-title-inner">
+				<div id="page-title3-inner">
 
 						<h2><span>Acerca de Dacotrans</span></h2>
 
@@ -594,27 +593,38 @@ Contamos con la certificación de Agente de IATA, y nos encontramos ubicados en 
 				<!-- start: About Member -->
 				<div class="span1"></div>
 				<div class="span2">
-					<div class="avatar">
-						<img class="img-circle" src="img/vendedor.png" alt="team member">
+					<div class="span12">
+					    <div class="avatar"><center>
+					        <img class="img-circle" src="img/vendedor.png" alt="team member">
+					    </center>
+					    </div>
 					</div>	
-					<div class="team-name">Estuardo Florian</div>
-					<div class="position">Vendedor</div>
-					<p>
-					    <div class="icon-envelope"></div>
-						<a href="mailto:estuardo.florian@dacotrans.com.gt">estuardo.florian@ dacotrans.com.gt</a><br>
-						<!-- <div class="fa fa-mobile"></div> -->
-						<!-- <a href='tel:+50223811200'> 502 0000.0000</a><br> -->
-						<div class="fa fa-phone"></div>
-						<a href='tel:+50223811200'> 502 2381-1200 Ext.1270</a>
-					</p>
-					<div class="social_profiles">
-						<ul class="social-bookmarks">
-							<li class="facebook"><a href="">facebook</a></li>
-							<!--<li class="flickr"><a href="">flickr</a></li>-->
-							<li class="linkedin"><a href="#">linkedin</a></li>
-							<!--<li class="twitter"><a href="#">twitter</a></li>-->
-						</ul>
-					</div>	
+					<div class="span12">
+				    	<div class="team-name">Estuardo Florian</div>
+				    </div>
+					<div class="span12">
+				    	<div class="position">Vendedor</div>
+				  	</div>
+				    <p></p>
+				        <div ><span class="icon-envelope"></span>
+				        	<a href="mailto:estuardo.florian@dacotrans.com.gt">estuardo.florian@ dacotrans.com.gt</a>
+				        </div>
+				        <br>
+				        <!-- <div class="fa fa-mobile"></div> -->
+				        <!-- <a href='tel:+50223811200'> 502 0000.0000</a><br> -->
+				        <div class="fa fa-phone"></div>
+				        <a href='tel:+50223811200'> 502 2381-1200 Ext.1270</a>
+				    </p>
+				    <div class="social_profiles">
+				        <ul class="social-bookmarks">
+				            <li class="facebook"><a href="">facebook</a>
+				            </li>
+				            <!--<li class="flickr"><a href="">flickr</a></li>-->
+				            <li class="linkedin"><a href="#">linkedin</a>
+				            </li>
+				            <!--<li class="twitter"><a href="#">twitter</a></li>-->
+				        </ul>
+				    </div>
 				</div>
 				<!-- end: About Member -->
 				
@@ -732,6 +742,8 @@ Contamos con la certificación de Agente de IATA, y nos encontramos ubicados en 
 				<!-- end: About Member -->
 				
 				<hr class="clean visible-phone">
+
+
 				<div class="span1"></div>
 			
 			</div>
@@ -766,9 +778,9 @@ Contamos con la certificación de Agente de IATA, y nos encontramos ubicados en 
 				
 	
 			<!-- start: Page Title -->
-			<div id="page-title">
+			<div id="page-title5">
 
-				<div id="page-title-inner">
+				<div id="page-title5-inner">
 
 						<h2><span>Contacto</span></h2>
 

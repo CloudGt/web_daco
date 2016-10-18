@@ -178,8 +178,8 @@
 	margin: 0 0 0 -130px;
 }
 
-.demo-1 [data-icon]:after {
-    content: attr(data-icon);
+.demo-1 [data-icon-1]:after {
+    content: attr(data-icon-1);
   /*  font-family: 'AnimalsNormal'; */
 	color: #999;
 	text-shadow: 0 0 1px #999;
@@ -196,6 +196,92 @@
 	border-radius: 50%;
 }
 
+.demo-1 [data-icon-2]:after {
+    content: attr(data-icon-2);
+  /*  font-family: 'AnimalsNormal'; */
+	color: #999;
+	text-shadow: 0 0 1px #999;
+	position: absolute;
+	width: 220px;
+	height: 220px;
+	line-height: 220px;
+	text-align: center;
+	font-size: 100px;
+	top: 50%;
+	left: 50%;
+	margin: -110px 0 0 -110px;
+	box-shadow: inset 0 0 0 10px #070e52;
+	border-radius: 50%;
+}
+
+.demo-1 [data-icon-3]:after {
+    content: attr(data-icon-3);
+  /*  font-family: 'AnimalsNormal'; */
+	color: #999;
+	text-shadow: 0 0 1px #999;
+	position: absolute;
+	width: 220px;
+	height: 220px;
+	line-height: 220px;
+	text-align: center;
+	font-size: 100px;
+	top: 50%;
+	left: 50%;
+	margin: -110px 0 0 -110px;
+	box-shadow: inset 0 0 0 10px #dcc210;
+	border-radius: 50%;
+}
+.demo-1 [data-icon-4]:after {
+    content: attr(data-icon-4);
+  /*  font-family: 'AnimalsNormal'; */
+	color: #999;
+	text-shadow: 0 0 1px #999;
+	position: absolute;
+	width: 220px;
+	height: 220px;
+	line-height: 220px;
+	text-align: center;
+	font-size: 100px;
+	top: 50%;
+	left: 50%;
+	margin: -110px 0 0 -110px;
+	box-shadow: inset 0 0 0 10px #0b0b09;
+	border-radius: 50%;
+}
+.demo-1 [data-icon-5]:after {
+    content: attr(data-icon-5);
+  /*  font-family: 'AnimalsNormal'; */
+	color: #999;
+	text-shadow: 0 0 1px #999;
+	position: absolute;
+	width: 220px;
+	height: 220px;
+	line-height: 220px;
+	text-align: center;
+	font-size: 100px;
+	top: 50%;
+	left: 50%;
+	margin: -110px 0 0 -110px;
+	box-shadow: inset 0 0 0 10px #070e52;
+	border-radius: 50%;
+}
+.demo-1 [data-icon-6]:after {
+    content: attr(data-icon-6);
+  /*  font-family: 'AnimalsNormal'; */
+	color: #999;
+	text-shadow: 0 0 1px #999;
+	position: absolute;
+	width: 220px;
+	height: 220px;
+	line-height: 220px;
+	text-align: center;
+	font-size: 100px;
+	top: 50%;
+	left: 50%;
+	margin: -110px 0 0 -110px;
+	box-shadow: inset 0 0 0 10px #0b0b09;
+	border-radius: 50%;
+}
 .demo-1 .sl-slide h2 {
 	color: #000;
 	text-shadow: 0 0 1px #000;
@@ -203,7 +289,23 @@
 	position: absolute;
 	font-size: 34px;
 	font-weight: 700;
-	letter-spacing: 13px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	width: 80%;
+	left: 10%;
+	text-align: center;
+	line-height: 50px;
+	bottom: 50%;
+	margin: 0 0 -120px 0;
+}
+.demo-1 .sl-slide h3 {
+	color: #dcc210;
+	text-shadow: 0 0 1px #000;
+	/*padding: 20px; */
+	position: absolute;
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: 8px;
 	text-transform: uppercase;
 	width: 80%;
 	left: 10%;
@@ -219,7 +321,7 @@
 	text-align: center;
 	left: 0;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 30px;
 	line-height: 20px;
 	height: 70px;
 	color: #8b8b8b;
@@ -231,9 +333,10 @@
 
 .demo-1 .sl-slide blockquote p{
 	margin: 0 auto;
-	width: 60%;
-	max-width: 400px;
+	width: 90%;
+	/*max-width: 960px;*/
 	position: relative;
+	font-size: 30px;
 }
 
 .demo-1 .sl-slide blockquote p:before {
@@ -248,131 +351,145 @@
 	z-index: -1;
 	left: -80px;
 	top: 35px;
-	content: '\201C';
+	/*content: '\201C'; */
 }
-
+/*
 .demo-1 .sl-slide blockquote cite {
 	font-size: 10px;
 	padding-top: 10px;
 	display: inline-block;
 	font-style: normal;
 	text-transform: uppercase;
-	letter-spacing: 4px;
+	letter-spacing: 200px;
 }
-
+*/
 /* Custom background colors for slides in first demo */
 
 /* First Slide */
 .demo-1 .bg-1 .sl-slide-inner,
 .demo-1 .bg-1 .sl-content-slice {
-	background: #0c3052;
+	background: #070e52;
 }
 
-.demo-1 .bg-1 [data-icon]:after,
+.demo-1 .bg-1 .deco {
+	border-color: #dcc210;
+}
+.demo-1 .bg-1 [data-icon-1]:after,
 .demo-1 .bg-1 h2 {
-	color: #fff;
+	color: #dcc210;
 }
 
 .demo-1 .bg-1 h2,
 .demo-1 .bg-1 blockquote{
-	color: #fff;
+	color: #dcc210;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
 .demo-1 .bg-1 blockquote:before {
-	color: #fff;
+	color: #dcc210;
+
 }
 
 /* Second Slide */
 .demo-1 .bg-2 .sl-slide-inner,
 .demo-1 .bg-2 .sl-content-slice {
-	background: #34495e;
+	background: #dcc210;
+}
+.demo-1 .bg-2 .deco {
+	border-color: #070e52;
 }
 
-.demo-1 .bg-2 [data-icon]:after,
+
+.demo-1 .bg-2 [data-icon-2]:after,
 .demo-1 .bg-2 h2 {
-	color: #fff;
+	color: #070e52;
 }
 
 .demo-1 .bg-2 h2,
 .demo-1 .bg-2 blockquote{
-	color: #fff;
+	color: #070e52;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
 .demo-1 .bg-2 blockquote:before {
-	color: #fff;
+	color: #070e52;
 }
 
 /* Third Slide */
 .demo-1 .bg-3 .sl-slide-inner,
 .demo-1 .bg-3 .sl-content-slice {
-	background: #CD5C5C;
+	background: #0b0b09;
 }
 
 .demo-1 .bg-3 .deco {
-	border-color: #a94b4b;
+	border-color: #dcc210;
 }
 
-.demo-1 .bg-3 [data-icon]:after {
-	text-shadow: 0 0 1px #fff;
-	color: #fff;
+.demo-1 .bg-3 [data-icon-3]:after {
+	text-shadow: 0 0 1px #dcc210;
+	color: #dcc210;
 }
 
 .demo-1 .bg-3 h2,
 .demo-1 .bg-3 blockquote{
-	color: #fff;
+	color: #dcc210;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
 .demo-1 .bg-3 blockquote:before {
-	color: #a94b4b;
+	color: #dcc210;
 }
 
-/* Forth Slide */
+/* Fourth Slide */
 .demo-1 .bg-4 .sl-slide-inner,
 .demo-1 .bg-4 .sl-content-slice {
-	background: #00a0b2;
+	background: #7f7f7b;
 }
 
 .demo-1 .bg-4 .deco {
-	border-color: #008897;
+	border-color: #0b0b09;
 }
 
-.demo-1 .bg-4 [data-icon]:after {
-	text-shadow: 0 0 1px #fff;
-	color: #fff;
+.demo-1 .bg-4 [data-icon-4]:after {
+	text-shadow: 0 0 1px #0b0b09;
+	color: #0b0b09;
 }
 
 .demo-1 .bg-4 h2,
 .demo-1 .bg-4 blockquote{
-	color: #fff;
+	color: #0b0b09;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
 .demo-1 .bg-4 blockquote:before {
-	color: #379eaa;
+	color: #0b0b09;
 }
 
 /* Fifth Slide */
 .demo-1 .bg-5 .sl-slide-inner,
 .demo-1 .bg-5 .sl-content-slice {
-	background: #d2ac00;
+	background: #adacaf;
 }
 
 .demo-1 .bg-5 .deco {
-	border-color: #c19e00;
+	border-color: #070e52;
 
 }
 
 .demo-1 .bg-5 .deco:after {
-	color: #fff;
-	text-shadow: 0 0 1px #fff;
+	color: #070e52;
+	text-shadow: 0 0 1px #070e52;
 }
+
+.demo-1 .bg-5 [data-icon-5]:after {
+	text-shadow: 0 0 1px #070e52;
+	color: #070e52;
+}
+
 
 .demo-1 .bg-5 h2,
 .demo-1 .bg-5 blockquote{
-	color: #fff;
+	color: #070e52;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 }
 
@@ -383,27 +500,27 @@
 /* Six Slide */
 .demo-1 .bg-6 .sl-slide-inner,
 .demo-1 .bg-6 .sl-content-slice {
-	background: #008567;
+	background: #e1dfe5;
 }
 
 .demo-1 .bg-6 .deco {
-	border-color: #006c54;
+	border-color: #0b0b09;
 
 }
 
 .demo-1 .bg-6 .deco:after {
-	color: #fff;
-	text-shadow: 0 0 1px #fff;
+	color: #0b0b09;
+	text-shadow: 0 0 1px #0b0b09;
 }
 
 .demo-1 .bg-6 h2,
 .demo-1 .bg-6 blockquote{
-	color: #fff;
+	color: #0b0b09;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 }
 
 .demo-1 .bg-6 blockquote:before {
-	color: #8e7500;
+	color: #0b0b09;
 }
 
 
@@ -584,9 +701,44 @@
 		font-size: 40px;
 		margin: -55px 0 0 -55px;
 	}
-
+	.demo-1 [data-icon-2]:after {
+		width: 110px;
+		height: 110px;
+		line-height: 110px;
+		font-size: 40px;
+		margin: -55px 0 0 -55px;
+	}
+	.demo-1 [data-icon-3]:after {
+		width: 110px;
+		height: 110px;
+		line-height: 110px;
+		font-size: 40px;
+		margin: -55px 0 0 -55px;
+	}
+	.demo-1 [data-icon-4]:after {
+		width: 110px;
+		height: 110px;
+		line-height: 110px;
+		font-size: 40px;
+		margin: -55px 0 0 -55px;
+	}
+	.demo-1 [data-icon-5]:after {
+		width: 110px;
+		height: 110px;
+		line-height: 110px;
+		font-size: 40px;
+		margin: -55px 0 0 -55px;
+	}
+	.demo-1 [data-icon-6]:after {
+		width: 110px;
+		height: 110px;
+		line-height: 110px;
+		font-size: 40px;
+		margin: -55px 0 0 -55px;
+	}
 	.demo-1 .sl-slide blockquote {
 		margin-bottom: -120px;
+		font-size: -15px;
 	}
 
 	.demo-1 .sl-slide h2 {
@@ -595,14 +747,31 @@
 		margin-bottom: -40px;
 		letter-spacing: 8px;
 	}
-
+		.demo-1 .sl-slide h3 {
+		line-height: 22px;
+		font-size: 14px;
+		margin-bottom: -40px;
+		letter-spacing: 8px;
+	}
+	/*
 	.demo-1 .sl-slide blockquote p:before {
 		line-height: 10px;
 		width: 40px;
 		height: 40px;
-		font-size: 120px;
+		font-size: -15px;
 		left: -45px;
 	}
+	*/
+	.demo-1 .sl-slide blockquote p{
+		line-height: 25px;
+		/*width: 40px;*/		
+		/*height: 40px;*/		
+		font-size: 20px;
+		/*left: -45px; */
+	}
+
+
+
 
 	.demo-2 .sl-slider-wrapper {
 		height: 500px;
@@ -613,7 +782,7 @@
 	}
 
 	.demo-2 .sl-slider blockquote {
-		font-size: 16px;
+		font-size: 15px;
 	}
 
 }

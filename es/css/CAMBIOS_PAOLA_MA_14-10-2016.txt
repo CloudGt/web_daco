@@ -1,0 +1,29 @@
+slider 1 0b238f / #070e52 /06117c  _letras blancas ffffff
+slider 2 dcc210 _letras azul 0b238f / #070e52
+
+
+
+slider 3 0b0b09 _letras amarillas dcc210
+slider 4 gris 7f7f7b letras negras 0b0b09
+slider 5 gris adacaf letras azul	0b238f / #070e52
+slider 6 gris e1dfe5 letras negras	0b0b09
+
+
+video institucional
+azul 0b238f / #070e52 letras amarillo dcc210
+servicios 
+amarillo dcc210 letra azul 0b238f / #070e52
+dibujos de servicios. color 0b238f / #070e52
+fondo de dibujo de servicios gris e1dfe5
+
+acerca de dacotrans
+negro 0b0b09 letras: amarillas dcc210
+
+
+nuestro equipo
+gris 7f7f73 letras negro 0b0b09
+
+contacto
+gris e1dfe5 letras azul 0d238f
+
+
