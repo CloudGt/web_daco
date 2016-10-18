@@ -439,7 +439,7 @@
 						
 						case arrow.left :
 
-							self._stopSlideshow();
+							//self._stopSlideshow();
 		
 							self._navigate( 'prev' );
 							//self._startSlideshow();
@@ -447,7 +447,7 @@
 						
 						case arrow.right :
 							
-							self._stopSlideshow();
+							//self._stopSlideshow();
 
 							self._navigate( 'next' );
 							//self._startSlideshow();
@@ -550,7 +550,7 @@
 		// public method: shows next slide
 		next : function() {
 
-			this._stopSlideshow();
+			//this._stopSlideshow();
 			
 			this._navigate( 'next' );
 			//this._startSlideshow();
@@ -559,7 +559,7 @@
 		// public method: shows previous slide
 		previous : function() {
 
-			this._stopSlideshow();
+			//this._stopSlideshow();
 			this._navigate( 'prev' );
 			//this._startSlideshow();
 
@@ -575,7 +575,7 @@
 
 			}
 
-			this._stopSlideshow();
+			//this._stopSlideshow();
 			this._navigate( pos > this.current ? 'next' : 'prev', pos );
 
 		},
