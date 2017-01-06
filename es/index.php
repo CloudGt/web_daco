@@ -28,23 +28,29 @@
 	<!-- end: Facebook Open Graph -->
 
     <!-- start: CSS -->
-    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/reset.css" type="text/css" media="all" />
-	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-	<link rel="stylesheet" href="lib/css/ap-scroll-top.css" type="text/css" media="all" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/slider1.css" rel="stylesheet">
 	<link href="css/slider2.css" rel="stylesheet">
 	<link href="css/slider3.css" rel="stylesheet">
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="lib/css/ap-scroll-top.css" type="text/css" media="all" />
+    
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<!-- end: CSS -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
+	<script defer="defer" src="js/custom.js"></script>
+	
+	<script type="text/javascript" src="js/carousel.js"></script>
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -52,6 +58,51 @@
 
 </head>
 <body>
+
+
+
+<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-36251023-1']);
+		  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+
+		function mostrar(){
+			document.getElementById('ocultar').style.display = 'none';
+			document.getElementById('mostrar').style.display = 'block';
+		}
+
+		function ocultar(){
+			document.getElementById('ocultar').style.display = 'block';
+			document.getElementById('mostrar').style.display = 'none';
+		}
+		function mostrar2(){
+			document.getElementById('ocultar2').style.display = 'none';
+			document.getElementById('mostrar2').style.display = 'block';
+		}
+
+		function ocultar2(){
+			document.getElementById('ocultar2').style.display = 'block';
+			document.getElementById('mostrar2').style.display = 'none';
+		}
+
+		function mostrar3(){
+			document.getElementById('ocultar3').style.display = 'none';
+			document.getElementById('mostrar3').style.display = 'block';
+		}
+
+		function ocultar3(){
+			document.getElementById('ocultar3').style.display = 'block';
+			document.getElementById('mostrar3').style.display = 'none';
+		}
+</script>
 	<!--start: Header -->
 	<header>
 		
@@ -325,8 +376,8 @@
 						<img src="img/servicios/barco2.jpg" class="img-circle" alt="cinque terre" width="180" height="140">
 							<div class="cambioColor">
 								<h3> Marítimo</h3>
-														
-						    	<div align="justify">
+								<h4>
+						    	<div align="left">
 									Nuestra amplia gama de servicios para flete marítimo nos permite manejar el transporte y envió de contenedores, así como también la consolidación de carga, de la manera más eficiente y económica para nuestros clientes.
 									<span id= 'ocultar2'class="label label-warning" onclick="mostrar2()">Leer más...</span>
 									 
@@ -336,6 +387,7 @@
 									 	<span class="label label-warning" onclick="ocultar2()">Leer menos...</span>
 									</div>
 								</div>
+							</h4>
 							</div>		
 							
 							
@@ -350,21 +402,21 @@
 						<img src="img/servicios/avion2.jpg" class="img-circle" class="cicletag"  width="180" height="140">
 						<div class="cambioColor">
 								<h3> Aéreo</h3>
-														
-						    	<div align="justify">
-									Manejamos carga aérea de los principales destinos del mundo, en la modalidad “Door to Door”. Trabajamos con compañías aéreas seleccionadas lo que nos permite ofrecer precios competitivos,  el mejor servicio y una solución de transporte rápido para nuestros clientes.
-									<span id= 'ocultar'class="label label-warning" onclick="mostrar()">Leer más...</span>
-									 
-									<div id='mostrar' style='display:none;'>
-									 	y una solución de transporte rápido para nuestros clientes, trabajamos exclusivamente con las compañías aéreas seleccionadas. Ademas  contamos con la certificacion de IATA
+								<h4>						
+							    	<div align="left">
+										Manejamos carga aérea de los principales destinos del mundo, en la modalidad “Door to Door”. Trabajamos con compañías aéreas seleccionadas lo que nos permite ofrecer precios competitivos,  el mejor servicio y una solución de transporte rápido para nuestros clientes.
+										<span id= 'ocultar'class="label label-warning" onclick="mostrar()">Leer más...</span>
+										 
+										<div id='mostrar' style='display:none;'>
+										 	y una solución de transporte rápido para nuestros clientes, trabajamos exclusivamente con las compañías aéreas seleccionadas. Ademas  contamos con la certificacion de IATA
 
-										Nuestro equipo de profesionales lo mantendrá informado a lo largo de todo el proceso.
-										Contamos con la certificación de Agente de IATA, y nos encontramos ubicados en la terminal de  carga aérea del Aeropuerto Internacional de la Ciudad de Guatemala.
+											Nuestro equipo de profesionales lo mantendrá informado a lo largo de todo el proceso.
+											Contamos con la certificación de Agente de IATA, y nos encontramos ubicados en la terminal de  carga aérea del Aeropuerto Internacional de la Ciudad de Guatemala.
 
-										<span class="label label-warning" onclick="ocultar()">Leer menos...</span>
+											<span class="label label-warning" onclick="ocultar()">Leer menos...</span>
+										</div>
 									</div>
-									
-								</div>
+								</h4>
 							</div>		
 						<div class="clearfix"></div>
 					</div>
@@ -374,12 +426,13 @@
           			<div class="icons-box">
 						<img src="img/servicios/camion2.jpg" class="img-circle" alt="cinque terre" width="180" height="140">
 						<div class="cambioColor">
-								<h3> Terrestre</h3>
-														
-						    	<div align="justify">
+							<h3> Terrestre</h3>
+							<h4>						
+						    	<div align="left">
 									Ofrecemos el servicio de transporte de carga nacional e internacional, en la modalidad “Door to Door”, de forma eficiente y confiable en toda Centro América y México.
 								</div>
-							</div>		
+							</h4>	
+						</div>		
 						<div class="clearfix"></div>
 					</div>
         		</div>
@@ -390,12 +443,13 @@
 						<img src="img/servicios/modular2.jpg" class="img-circle" alt="cinque terre" width="180" height="140">
 						<div class="cambioColor">
 							<h3>Carga Especial</h3>
-						
-						    <div align="justify">
+							<h4>
+						    <div align="left">
 						 		A través de nuestro socio Daco Heavy Lift, ofrecemos el servicio especializado en transporte de maquinaria pesada, cargas especiales y carga sobredimensionada.  Para mayor información favor hacer click en el link.
 
 						 		<button type="button" class="btn btn-info" href="http://www.dacoheavylift.com/" onclick="window.open('http://www.dacoheavylift.com/')" target="_blank">dacoheavylift.com</button>
 						 	</div>
+						 	</h4>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -419,8 +473,8 @@
 						<img src="img/servicios/aduana2.jpg" class="img-circle" alt="cinque terre" width="180" height="140">
 						<div class="cambioColor">
 								<h3> Manejo de Aduana</h3>
-														
-						    	<div align="justify">
+								<h4>						
+						    	<div align="left">
 									Brindamos soluciones aduanales que le permiten ahorrar tiempo y dinero. 
 									<span id= 'ocultar3'class="label label-warning" onclick="mostrar3()">Leer más...</span>
 									 
@@ -431,6 +485,7 @@
 										
 									</div>
 								</div>
+								</h4>
 							</div>		
 						<div class="clearfix"></div>
 						
@@ -478,73 +533,73 @@
 		
 			<!--start: Row -->
 	    	<div class="row-fluid" align="justify">
-		
-				<div class="span12">
-					
-					<!-- start: About Us -->
-					<div id="story">
-						<h3>Nuestra Historia</h3>
-						<p>
-							Dacotrans de Guatemala, es una empresa de logística fundada en el año 1969, como parte de un grupo de embarcadores a nivel mundial.
-						</p>
-						<p>
-							Actualmente nuestra organización está conformada por más de 100 colaboradores, quienes reciben una capacitación continua para ofrecer las mejores soluciones y servicios integrados a todos nuestros clientes.
-						</p>
-						<p>
-							Nuestras oficinas centrales se encuentran ubicadas estratégicamente en Almacenadora lntegrada "Coalsa" en la Ciudad de Guatemala,  lo que nos permite mantener una supervisión continua de los trámites en el manejo de cargas consolidadas. También estamos ubicados en el interior de la terminal aérea de carga en el Aeropuerto Internacional de la Ciudad de Guatemala "La Aurora".
-						</p>
-						<p>
-							Contamos con cobertura en toda Europa desde hace 35 años, destacando Italia como uno de nuestros tráficos más relevantes. Ofreciendo los servicios para carga consolidada marítima, equipos completos, carga aérea, carga sobredimensionada y proyectos.
-						</p>
-						<p>
-						Somos Agentes autorizados por IATA- FIATA.
-						</p>
-						<p>
-						El Grupo Dacotrans de Guatemala está conformado por tres empresas:
-						</p>	
-						<p>
-							•Dacotrans de Guatemala: Embarcadora a nivel mundial de carga consolidada, equipos completos, carga aérea, carga suelta (Break Bulk; cuenta con camiones propios para entregas a domicilio y con un departamento interno de trámites aduanales.
-						</p>
+				<h4>
+					<div class="span12">
+						
+						<!-- start: About Us -->
+						<div id="story">
+							<h3>Nuestra Historia</h3>
+							<p>
+								Dacotrans de Guatemala, es una empresa de logística fundada en el año 1969, como parte de un grupo de embarcadores a nivel mundial.
+							</p>
+							<p>
+								Actualmente nuestra organización está conformada por más de 100 colaboradores, quienes reciben una capacitación continua para ofrecer las mejores soluciones y servicios integrados a todos nuestros clientes.
+							</p>
+							<p>
+								Nuestras oficinas centrales se encuentran ubicadas estratégicamente en Almacenadora lntegrada "Coalsa" en la Ciudad de Guatemala,  lo que nos permite mantener una supervisión continua de los trámites en el manejo de cargas consolidadas. También estamos ubicados en el interior de la terminal aérea de carga en el Aeropuerto Internacional de la Ciudad de Guatemala "La Aurora".
+							</p>
+							<p>
+								Contamos con cobertura en toda Europa desde hace 35 años, destacando Italia como uno de nuestros tráficos más relevantes. Ofreciendo los servicios para carga consolidada marítima, equipos completos, carga aérea, carga sobredimensionada y proyectos.
+							</p>
+							<p>
+							Somos Agentes autorizados por IATA- FIATA.
+							</p>
+							<p>
+							El Grupo Dacotrans de Guatemala está conformado por tres empresas:
+							</p>	
+							<p>
+								•Dacotrans de Guatemala: Embarcadora a nivel mundial de carga consolidada, equipos completos, carga aérea, carga suelta (Break Bulk; cuenta con camiones propios para entregas a domicilio y con un departamento interno de trámites aduanales.
+							</p>
 
-						<p>
-							• Daco Heavy Lift: Empresa especializada en transporte de carga sobredimensionada y sobre pesada (hasta de 400,000 Kgs); cuenta con equipos de transporte y traileres propios para realizar este servicio. Ofrece también el servicio de entrega de carga especial sobre sus fundamentos. Se tiene presencia en toda Centro América, Islas del Caribe y en la parte norte de América del Sur.
-						</p>
+							<p>
+								• Daco Heavy Lift: Empresa especializada en transporte de carga sobredimensionada y sobre pesada (hasta de 400,000 Kgs); cuenta con equipos de transporte y traileres propios para realizar este servicio. Ofrece también el servicio de entrega de carga especial sobre sus fundamentos. Se tiene presencia en toda Centro América, Islas del Caribe y en la parte norte de América del Sur.
+							</p>
 
-						<p>
-							• Grúas de Centroamérica: Empresa especializada en el servicio de grúas; cuenta con grúas propias con capacidad de hasta 500 Toneladas.
-						</p>
-					</div>	
-					<!-- end: About Us -->
+							<p>
+								• Grúas de Centroamérica: Empresa especializada en el servicio de grúas; cuenta con grúas propias con capacidad de hasta 500 Toneladas.
+							</p>
+						</div>	
+						<!-- end: About Us -->
 
-					<!-- start: History -->
-					<div id="history">
+						<!-- start: History -->
+						<div id="history">
 
-						<h3>Misión</h3>
-						<p>
-							<span class="dropcap">M</span>Somos una empresa multinacional alemana de servicios de transportes de carga desde y hacia los cinco continentes, por las vías aéreo, marítimo y terrestre. Nuestro compromiso es la satisfacción total de nuestros clientes a través de un servicio seguro y profesional que comprende tarifas competitivas, tiempos cortos de tránsito, servicio de aduana, lo cual logramos con la capacitación constante de nuestro personal.
-						</p>
+							<h3>Misión</h3>
+							<p>
+								<span class="dropcap">M</span>Somos una empresa multinacional alemana de servicios de transportes de carga desde y hacia los cinco continentes, por las vías aéreo, marítimo y terrestre. Nuestro compromiso es la satisfacción total de nuestros clientes a través de un servicio seguro y profesional que comprende tarifas competitivas, tiempos cortos de tránsito, servicio de aduana, lo cual logramos con la capacitación constante de nuestro personal.
+							</p>
 
-						<h3>Visión</h3>
-						<p>
-							<span class="dropcap color">V</span>Nuestro principal objetivo es lograr un 100% de efectividad en el servicio al cliente, mantenernos dentro de las 9 mejores Agencias de Carga en Guatemala e incrementar nuestro volumen de ventas con respecto a nuestra competencia.
-						</p>
+							<h3>Visión</h3>
+							<p>
+								<span class="dropcap color">V</span>Nuestro principal objetivo es lograr un 100% de efectividad en el servicio al cliente, mantenernos dentro de las 9 mejores Agencias de Carga en Guatemala e incrementar nuestro volumen de ventas con respecto a nuestra competencia.
+							</p>
 
-						<h3>Valores</h3>
-						<p>
-							<span class="dropcap dark">V</span>
-								Para los clientes: buen servicio, cortesía, responsabilidad, profesionalismo, rapidez. 
-								<br>Para los compañeros: comunicación y retroalimentación, apoyo y confianza, resolución de conflictos, servicio, respeto a diferencias. 
-								<br>En general: superación personal, puntualidad.
-						</p>
+							<h3>Valores</h3>
+							<p>
+								<span class="dropcap dark">V</span>
+									Para los clientes: buen servicio, cortesía, responsabilidad, profesionalismo, rapidez. 
+									<br>Para los compañeros: comunicación y retroalimentación, apoyo y confianza, resolución de conflictos, servicio, respeto a diferencias. 
+									<br>En general: superación personal, puntualidad.
+							</p>
+
+								
 
 							
+						</div>	
+						<!-- end: History -->
 
-						
-					</div>	
-					<!-- end: History -->
-
-				</div>
-				
+					</div>
+				</h4>	
 			</div>
 			<!--end: Row -->
 			
@@ -594,9 +649,10 @@
 				<div class="span1"></div>
 				<div class="span2">
 					<div class="span12">
-					    <div class="avatar"><center>
-					        <img class="img-circle" src="img/vendedor.png" alt="team member">
-					    </center>
+					    <div class="avatar">
+						    <center>
+						        <img class="img-circle" src="img/vendedor.png" alt="team member">
+						    </center>
 					    </div>
 					</div>	
 					<div class="span12">
@@ -605,16 +661,13 @@
 					<div class="span12">
 				    	<div class="position">Vendedor</div>
 				  	</div>
-				    <p></p>
-				        <div ><span class="icon-envelope"></span>
-				        	<a href="mailto:estuardo.florian@dacotrans.com.gt">estuardo.florian@ dacotrans.com.gt</a>
-				        </div>
-				        <br>
-				        <!-- <div class="fa fa-mobile"></div> -->
-				        <!-- <a href='tel:+50223811200'> 502 0000.0000</a><br> -->
-				        <div class="fa fa-phone"></div>
-				        <a href='tel:+50223811200'> 502 2381-1200 Ext.1270</a>
-				    </p>
+				  	<div class="span12">
+				        <span class="icon-envelope"></span><a href="mailto:estuardo.florian@dacotrans.com.gt">estuardo.florian@ dacotrans.com.gt</a>
+				    </div>
+				    <div class="span12">
+				        <span class="fa fa-phone"></span>
+				        <a href='tel:+50223811200'> 502 2381-1200 Ext.1270</a>	
+				    </div>
 				    <div class="social_profiles">
 				        <ul class="social-bookmarks">
 				            <li class="facebook"><a href="">facebook</a>
@@ -848,7 +901,7 @@
 				<div class="span6">
 					
 					<!-- starts: Google Maps -->
-					<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
 					<div id="googlemaps">
 						<div id="map" class="google-map google-map-full"></div>
 					</div>
@@ -940,17 +993,18 @@
 
 <!-- start: Java Script -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
 <script type="text/javascript" src="js/isotope.js"></script>
-<script type="text/javascript" src="js/jquery.imagesloaded.js"></script>
+
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/flexslider.js"></script>
-<script type="text/javascript" src="js/carousel.js"></script>
+
 <script type="text/javascript" src="js/fancybox.js"></script>
-<script type="text/javascript" src="js/twitter.js"></script>
+<!-- <script type="text/javascript" src="js/twitter.js"></script> -->
 <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
 <script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
 <script type="text/javascript" src="js/jquery.slitslider.js"></script>
+<script type="text/javascript" src="js/jquery.imagesloaded.js"></script>
 <script src="lib/js/ap-scroll-top.js"></script>
 <script type="text/javascript" src="js/excanvas.js"></script>
 <script type="text/javascript" src="js/jquery.flot.min.js"></script>
@@ -958,7 +1012,7 @@
 <script type="text/javascript" src="js/jquery.flot.stack.js"></script>
 <script type="text/javascript" src="js/jquery.flot.resize.min.js"></script>
 
-<script defer="defer" src="js/custom.js"></script>
+
 <script type="text/javascript">	
 	$(function() {
 	
@@ -1028,155 +1082,106 @@
 	});
 </script>
 
+	
+<script type="text/javascript">
+    // Setup plugin with default settings
+    $(document).ready(function() {
 
-		<script type="text/javascript">
-            // Setup plugin with default settings
-            $(document).ready(function() {
+        $.apScrollTop({
+            'onInit': function(evt) {
+                console.log('apScrollTop: init');
+            }
+        });
 
-                $.apScrollTop({
-                    'onInit': function(evt) {
-                        console.log('apScrollTop: init');
-                    }
-                });
+        // Add event listeners
+        $.apScrollTop().on('apstInit', function(evt) {
+            console.log('apScrollTop: init');
+        });
 
-                // Add event listeners
-                $.apScrollTop().on('apstInit', function(evt) {
-                    console.log('apScrollTop: init');
-                });
+        $.apScrollTop().on('apstToggle', function(evt, details) {
+            console.log('apScrollTop: toggle / is visible: ' + details.visible);
+        });
 
-                $.apScrollTop().on('apstToggle', function(evt, details) {
-                    console.log('apScrollTop: toggle / is visible: ' + details.visible);
-                });
+        $.apScrollTop().on('apstCssClassesUpdated', function(evt) {
+            console.log('apScrollTop: cssClassesUpdated');
+        });
 
-                $.apScrollTop().on('apstCssClassesUpdated', function(evt) {
-                    console.log('apScrollTop: cssClassesUpdated');
-                });
+        $.apScrollTop().on('apstPositionUpdated', function(evt) {
+            console.log('apScrollTop: positionUpdated');
+        });
 
-                $.apScrollTop().on('apstPositionUpdated', function(evt) {
-                    console.log('apScrollTop: positionUpdated');
-                });
+        $.apScrollTop().on('apstEnabled', function(evt) {
+            console.log('apScrollTop: enabled');
+        });
 
-                $.apScrollTop().on('apstEnabled', function(evt) {
-                    console.log('apScrollTop: enabled');
-                });
+        $.apScrollTop().on('apstDisabled', function(evt) {
+            console.log('apScrollTop: disabled');
+        });
 
-                $.apScrollTop().on('apstDisabled', function(evt) {
-                    console.log('apScrollTop: disabled');
-                });
+        $.apScrollTop().on('apstBeforeScrollTo', function(evt, details) {
+            console.log('apScrollTop: beforeScrollTo / position: ' + details.position + ', speed: ' + details.speed);
 
-                $.apScrollTop().on('apstBeforeScrollTo', function(evt, details) {
-                    console.log('apScrollTop: beforeScrollTo / position: ' + details.position + ', speed: ' + details.speed);
+            // You can return a single number here, which means that to this position
+            // browser window scolls to
+            /*
+            return 100;
+            */
 
-                    // You can return a single number here, which means that to this position
-                    // browser window scolls to
-                    /*
-                    return 100;
-                    */
+            // .. or you can return an object, containing position and speed:
+            /*
+            return {
+                position: 100,
+                speed: 100
+            };
+            */
 
-                    // .. or you can return an object, containing position and speed:
-                    /*
-                    return {
-                        position: 100,
-                        speed: 100
-                    };
-                    */
+            // .. or do not return anything, so the default values are used to scroll
+        });
 
-                    // .. or do not return anything, so the default values are used to scroll
-                });
+        $.apScrollTop().on('apstScrolledTo', function(evt, details) {
+            console.log('apScrollTop: scrolledTo / position: ' + details.position);
+        });
 
-                $.apScrollTop().on('apstScrolledTo', function(evt, details) {
-                    console.log('apScrollTop: scrolledTo / position: ' + details.position);
-                });
+        $.apScrollTop().on('apstDestroy', function(evt, details) {
+            console.log('apScrollTop: destroy');
+        });
 
-                $.apScrollTop().on('apstDestroy', function(evt, details) {
-                    console.log('apScrollTop: destroy');
-                });
+    });
 
+
+    // Add change events for options
+    $('#option-enabled').on('change', function() {
+        var enabled = $(this).is(':checked');
+        $.apScrollTop('option', 'enabled', enabled);
+    });
+
+    $('#option-visibility-trigger').on('change', function() {
+        var value = $(this).val();
+        if (value == 'custom-function') {
+            $.apScrollTop('option', 'visibilityTrigger', function(currentYPos) {
+                var imagePosition = $('#image-for-custom-function').offset();
+                return (currentYPos > imagePosition.top);
             });
+        }
+        else {
+            $.apScrollTop('option', 'visibilityTrigger', parseInt(value));
+        }
+    });
 
+    $('#option-visibility-fade-speed').on('change', function() {
+        var value = parseInt($(this).val());
+        $.apScrollTop('option', 'visibilityFadeSpeed', value);
+    });
 
-            // Add change events for options
-            $('#option-enabled').on('change', function() {
-                var enabled = $(this).is(':checked');
-                $.apScrollTop('option', 'enabled', enabled);
-            });
+    $('#option-scroll-speed').on('change', function() {
+        var value = parseInt($(this).val());
+        $.apScrollTop('option', 'scrollSpeed', value);
+    });
 
-            $('#option-visibility-trigger').on('change', function() {
-                var value = $(this).val();
-                if (value == 'custom-function') {
-                    $.apScrollTop('option', 'visibilityTrigger', function(currentYPos) {
-                        var imagePosition = $('#image-for-custom-function').offset();
-                        return (currentYPos > imagePosition.top);
-                    });
-                }
-                else {
-                    $.apScrollTop('option', 'visibilityTrigger', parseInt(value));
-                }
-            });
-
-            $('#option-visibility-fade-speed').on('change', function() {
-                var value = parseInt($(this).val());
-                $.apScrollTop('option', 'visibilityFadeSpeed', value);
-            });
-
-            $('#option-scroll-speed').on('change', function() {
-                var value = parseInt($(this).val());
-                $.apScrollTop('option', 'scrollSpeed', value);
-            });
-
-            $('#option-position').on('change', function() {
-                var value = $(this).val();
-                $.apScrollTop('option', 'position', value);
-            });
-		</script><script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36251023-1']);
-  _gaq.push(['_setDomainName', 'jqueryscript.net']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-
-function mostrar(){
-	document.getElementById('ocultar').style.display = 'none';
-	document.getElementById('mostrar').style.display = 'block';
-}
-
-function ocultar(){
-	document.getElementById('ocultar').style.display = 'block';
-	document.getElementById('mostrar').style.display = 'none';
-}
-function mostrar2(){
-	document.getElementById('ocultar2').style.display = 'none';
-	document.getElementById('mostrar2').style.display = 'block';
-}
-
-function ocultar2(){
-	document.getElementById('ocultar2').style.display = 'block';
-	document.getElementById('mostrar2').style.display = 'none';
-}
-
-function mostrar3(){
-	document.getElementById('ocultar3').style.display = 'none';
-	document.getElementById('mostrar3').style.display = 'block';
-}
-
-function ocultar3(){
-	document.getElementById('ocultar3').style.display = 'block';
-	document.getElementById('mostrar3').style.display = 'none';
-}
-
-
-
-
-
-
-
+    $('#option-position').on('change', function() {
+        var value = $(this).val();
+        $.apScrollTop('option', 'position', value);
+    });
 </script>
 
 

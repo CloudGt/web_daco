@@ -195,10 +195,24 @@
 	color: #dcc210;
 }
 
+.color.yellow h4 {
+	background: #0b0b09;
+	margin: 20px auto 10px auto;
+	font-size: 15px;
+  	line-height: 25px;
+}
+
+
 .color.yellow h2 span {
 	background: #0b0b09;
 }
-
+}
+.color.yellow p {
+	background: #0b0b09;
+	margin: 20px auto 10px auto;
+	font-size: 22px;
+  	line-height: 22px;
+}
 
 body {
 	font-family: 'Droid Sans';
@@ -225,8 +239,8 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 22px;
+  line-height: 22px;
 }
 
 h4 {
@@ -1129,6 +1143,31 @@ hr {
   height: 100%;
 }
 
+/*    textos para pagina                 */
+.textos_pagina 
+{
+
+	font-size: 20px;
+}
+.textos_pagina h3{
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
   .flex-video { padding-top: 0; }
 }
@@ -1310,6 +1349,14 @@ html[xmlns] .slides {display: block;}
 
 .icons-box h3 {
 	margin: 20px auto 10px auto;
+	font-size: 22px;
+  	line-height: 22px;
+}
+
+.icons-box h4 {
+	margin: 20px auto 10px auto;
+	font-size: 15px;
+  	line-height: 20px;
 }
 
 .icons-box p {

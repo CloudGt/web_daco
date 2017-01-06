@@ -32,7 +32,7 @@ $mail->AddBCC('soporte@dacotrans.com.gt');
 //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 $mail->isHTML(true);                                  // Set email format to HTML
 
-$mail->Subject = 'test';
+$mail->Subject = 'Solicitud de información';
 //$mail->Body    = $mensaje .'-- telefono ' .$telefono;
 
 $mail->Body= 
