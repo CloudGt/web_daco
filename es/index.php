@@ -55,6 +55,7 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+   
 
 </head>
 <body>
@@ -905,7 +906,7 @@
 					<div id="googlemaps">
 						<div id="map" class="google-map google-map-full"></div>
 					</div>
-					<script src="http://maps.google.com/maps/api/js?key=AIzaSyAYWfmBx3gWIE5W9HvQxmWG31uvCGqYTwA"></script>
+					<script src="http://maps.google.com/maps/api/js?key=AIzaSyCzLY_YJ1xLwB77sQmUS_GpkLiLK6q2HlE"></script>
 					<script src="js/jquery.gmap.min.js"></script>
 					<script type="text/javascript">
 						$('#map').gMap({
@@ -972,6 +973,69 @@
 	<!-- end: 7th Page - Contact -->
 
 	
+	<?php
+		function interface_contador(){ 
+
+		    $archivo = "contador_daco.txt"; 
+		    $info = array(); 
+
+		    //comprobar si existe el archivo 
+		    if (file_exists($archivo)){ 
+		       // abrir archivo de texto y introducir los datos en el array $info 
+		       $fp = fopen($archivo,"r"); 
+		       $contador = fgets($fp, 26); 
+		       $info = explode(" ",$contador); 
+		       fclose($fp); 
+
+		       // poner nombre a cada dato 
+		       $mes_actual = date("m"); 
+		       $mes_ultimo = $info[0]; 
+		       $visitas_mes = $info[1]; 
+		       $visitas_totales = $info[2]; 
+		    }else{ 
+		       // inicializar valores 
+		       $mes_actual = date("m"); 
+		       $mes_ultimo = "0"; 
+		       $visitas_mes = 0; 
+		       $visitas_totales = 0; 
+		    } 
+
+		    // incrementar las visitas del mes según si estamos en el mismo 
+		    // mes o no que el de la ultima visita, o ponerlas a cero 
+		    if ($mes_actual==$mes_ultimo){ 
+		       $visitas_mes++; 
+		    }else{ 
+		       $visitas_mes=1; 
+		    } 
+
+		    $visitas_totales=$visitas_totales+1; 
+		    // reconstruir el array con los nuevos valores 
+		    $info[0] = $mes_actual; 
+		    $info[1] = $visitas_mes; 
+		    $info[2] = $visitas_totales; 
+
+		    // grabar los valores en el archivo de nuevo 
+		    $info_nueva = implode(" ",$info); 
+		    $fp = fopen($archivo,"w+"); 
+		    fwrite($fp, $info_nueva, 26); 
+		    fclose($fp); 
+
+		    // devolver el array 
+		    return $info; 
+		}
+
+//llamo a la función
+$miinfo = interface_contador();
+
+
+?>
+<?php
+//muestro los datos del contador
+echo "<span class='label label-primary'>este mes: ". $miinfo[0] ."</span>";
+echo "<span class='label label-success'>ultimo mes: " . $miinfo[1] . "</span>";
+echo "<span class='label label-info'>total: ". $miinfo[2] . "</span>";
+?>
+
 
 	<footer>
 		
@@ -1184,7 +1248,16 @@
     });
 </script>
 
+ <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+	  ga('create', 'UA-89942758-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
 <!-- end: Java Script -->
 
 </body>
